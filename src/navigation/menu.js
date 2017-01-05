@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Created by amin on October 30, 2015.
  */
 
@@ -22,7 +22,7 @@ define(['jquery', 'navigation/navigation', 'lodash', 'common/util'], function ($
             newLI.appendTo( root);
 
             if (isDropdownMenu) {
-                var newUL = $("<ul>").addClass("primary-color");
+                var newUL = $("<ul>");
                 newUL.appendTo(newLI);
                 refreshMenu( newUL, value.submarkets || value.instruments, on_click );
             }

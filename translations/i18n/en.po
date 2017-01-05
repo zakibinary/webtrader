@@ -291,6 +291,12 @@ msgstr "Aroon Down Stroke"
 msgid "Aroon Up Stroke"
 msgstr "Aroon Up Stroke"
 
+msgid "Asian down"
+msgstr ""
+
+msgid "Asian up"
+msgstr ""
+
 msgid "Asians"
 msgstr "Asians"
 
@@ -466,6 +472,9 @@ msgstr "Connection error. Refresh the page"
 msgid "Construction"
 msgstr "Construction"
 
+msgid "Contact Us"
+msgstr ""
+
 msgid "Continue"
 msgstr "Continue"
 
@@ -604,6 +613,9 @@ msgstr "Description"
 msgid "Deselect"
 msgstr ""
 
+msgid "Differs"
+msgstr ""
+
 msgid "Digits"
 msgstr "Digits"
 
@@ -698,6 +710,12 @@ msgstr "End Time"
 msgid "Ends In/Out"
 msgstr "Ends In/Out"
 
+msgid "Ends in"
+msgstr ""
+
+msgid "Ends out"
+msgstr ""
+
 msgid "Ensure you are entering valid inputs else your account will get locked"
 msgstr "Ensure you are entering valid inputs else your account will get locked"
 
@@ -713,8 +731,8 @@ msgstr "Entry spot"
 msgid "Error downloading .csv"
 msgstr "Error downloading .csv"
 
-msgid "Error getting data for"
-msgstr "Error getting data for"
+msgid "Error getting data for %1"
+msgstr ""
 
 #, fuzzy
 msgid "Error getting market information!"
@@ -722,6 +740,9 @@ msgstr "Error getting market information!"
 
 msgid "Estimated Net Worth"
 msgstr "Estimated Net Worth"
+
+msgid "Even"
+msgstr ""
 
 msgid "Exclude me from the website until"
 msgstr "Exclude me from the website until"
@@ -814,6 +835,9 @@ msgstr "From"
 msgid "Further instructions"
 msgstr "Further instructions"
 
+msgid "Goes out"
+msgstr ""
+
 msgid "Gray"
 msgstr "Gray"
 
@@ -840,6 +864,9 @@ msgstr "High Price"
 
 msgid "High Stroke"
 msgstr "High Stroke"
+
+msgid "High barrier"
+msgstr ""
 
 msgid "High barrier offset"
 msgstr "High barrier offset"
@@ -1123,6 +1150,9 @@ msgstr "Low Price"
 msgid "Low Stroke"
 msgstr "Low Stroke"
 
+msgid "Low barrier"
+msgstr ""
+
 msgid "Low barrier offset"
 msgstr "Low barrier offset"
 
@@ -1159,6 +1189,9 @@ msgstr "March"
 
 msgid "Mass Period"
 msgstr "Mass Period"
+
+msgid "Matches"
+msgstr ""
 
 msgid "Max/Min Period"
 msgstr "Max/Min Period"
@@ -1283,6 +1316,9 @@ msgstr "New password"
 msgid "No"
 msgstr "No"
 
+msgid "No touch"
+msgstr ""
+
 msgid "Note that tokens can possess one or more of these scopes"
 msgstr "Note that tokens can possess one or more of these scopes"
 
@@ -1329,6 +1365,9 @@ msgstr "Oct"
 
 msgid "October"
 msgstr "October"
+
+msgid "Odd"
+msgstr ""
 
 msgid "Offset"
 msgstr "Offset"
@@ -1506,6 +1545,9 @@ msgstr "Please enter the token name"
 
 msgid "Please enter the verification code sent to your email"
 msgstr "Please enter the verification code sent to your email"
+
+msgid "Please enter time in the format HH:MM"
+msgstr ""
 
 msgid "Please enter your city address"
 msgstr "Please enter your city address"
@@ -1773,9 +1815,6 @@ msgstr "Session"
 msgid "Session duration limit, in minutes"
 msgstr "Session duration limit, in minutes"
 
-msgid "Session is not authenticated"
-msgstr "Session is not authenticated"
-
 msgid "Settles"
 msgstr "Settles"
 
@@ -1851,6 +1890,12 @@ msgstr "Spline"
 msgid "Spreads"
 msgstr "Spreads"
 
+msgid "Spreads down"
+msgstr ""
+
+msgid "Spreads up"
+msgstr ""
+
 msgid "Stake"
 msgstr "Stake"
 
@@ -1877,6 +1922,9 @@ msgstr "Status"
 
 msgid "Stays In/Goes Out"
 msgstr "Stays In/Goes Out"
+
+msgid "Stays in"
+msgstr ""
 
 msgid "Stocks trading experience"
 msgstr "Stocks trading experience"
@@ -2028,6 +2076,9 @@ msgstr "Time Period"
 msgid "Time interval"
 msgstr "Time interval"
 
+msgid "Time out until"
+msgstr ""
+
 msgid "Time period"
 msgstr "Time period"
 
@@ -2090,6 +2141,9 @@ msgstr "Total Cost"
 
 msgid "Total Profit/Loss"
 msgstr "Total Profit/Loss"
+
+msgid "Touch"
+msgstr ""
 
 msgid "Touch/No Touch"
 msgstr "Touch/No Touch"
@@ -2160,6 +2214,9 @@ msgid "USD"
 msgstr "USD"
 
 msgid "USDJPY"
+msgstr ""
+
+msgid "Under"
 msgstr ""
 
 msgid "Unfortunately, your browser does not support them"
@@ -2546,6 +2603,12 @@ msgstr "{agent.commission}%"
 
 msgid "| Return"
 msgstr "| Return"
+
+#~ msgid "Error getting data for"
+#~ msgstr "Error getting data for"
+
+#~ msgid "Session is not authenticated"
+#~ msgstr "Session is not authenticated"
 
 #~ msgid "--- title: Page Not Found permalink: /404.html excerpt: \"\" ---"
 #~ msgstr "--- title: Page Not Found permalink: /404.html excerpt: \"\" ---"

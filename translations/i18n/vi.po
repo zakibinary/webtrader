@@ -295,6 +295,12 @@ msgstr "Aroon Nét Xuống"
 msgid "Aroon Up Stroke"
 msgstr "Aroon Nét Lên"
 
+msgid "Asian down"
+msgstr ""
+
+msgid "Asian up"
+msgstr ""
+
 msgid "Asians"
 msgstr "Người châu Á"
 
@@ -473,6 +479,9 @@ msgstr "Lỗi kết nối. Làm mới lại trang"
 msgid "Construction"
 msgstr "Xây dựng"
 
+msgid "Contact Us"
+msgstr ""
+
 msgid "Continue"
 msgstr "Tiếp tục"
 
@@ -613,6 +622,9 @@ msgstr "Mô tả"
 msgid "Deselect"
 msgstr ""
 
+msgid "Differs"
+msgstr ""
+
 msgid "Digits"
 msgstr "Chữ số"
 
@@ -707,6 +719,12 @@ msgstr "Thời gian kết thúc"
 msgid "Ends In/Out"
 msgstr "Kết thúc Trong/Ngoài"
 
+msgid "Ends in"
+msgstr ""
+
+msgid "Ends out"
+msgstr ""
+
 msgid "Ensure you are entering valid inputs else your account will get locked"
 msgstr ""
 
@@ -722,8 +740,8 @@ msgstr "Điểm khởi đầu"
 msgid "Error downloading .csv"
 msgstr "Lỗi tải xuống tệp .csv"
 
-msgid "Error getting data for"
-msgstr "Lỗi lấy dữ liệu cho"
+msgid "Error getting data for %1"
+msgstr ""
 
 #, fuzzy
 msgid "Error getting market information!"
@@ -731,6 +749,9 @@ msgstr "Lỗi lấy dữ liệu cho"
 
 msgid "Estimated Net Worth"
 msgstr "Ước tính giá trị ròng"
+
+msgid "Even"
+msgstr ""
 
 msgid "Exclude me from the website until"
 msgstr "Loại bỏ tôi khỏi trang web cho đến khi"
@@ -823,6 +844,9 @@ msgstr "Từ"
 msgid "Further instructions"
 msgstr "Hướng dẫn thêm"
 
+msgid "Goes out"
+msgstr ""
+
 msgid "Gray"
 msgstr "Màu xám"
 
@@ -850,6 +874,9 @@ msgstr "Giá cao"
 #, fuzzy
 msgid "High Stroke"
 msgstr "Nét cao"
+
+msgid "High barrier"
+msgstr ""
 
 msgid "High barrier offset"
 msgstr "Offset barie cao"
@@ -1137,6 +1164,9 @@ msgstr "Giá thấp"
 msgid "Low Stroke"
 msgstr "Nét thấp"
 
+msgid "Low barrier"
+msgstr ""
+
 #, fuzzy
 msgid "Low barrier offset"
 msgstr "Offset barie thấp"
@@ -1177,6 +1207,9 @@ msgstr "Tháng ba"
 
 msgid "Mass Period"
 msgstr "Thời lượng lớn"
+
+msgid "Matches"
+msgstr ""
 
 msgid "Max/Min Period"
 msgstr "Thời hạn Tối đa/Tối thiểu"
@@ -1304,6 +1337,9 @@ msgstr "Mật khẩu mới"
 msgid "No"
 msgstr "Không"
 
+msgid "No touch"
+msgstr ""
+
 msgid "Note that tokens can possess one or more of these scopes"
 msgstr "Lưu ý rằng token có thể có một hoặc nhiều hơn các phạm vi này"
 
@@ -1350,6 +1386,9 @@ msgstr "Tháng mười"
 
 msgid "October"
 msgstr "Tháng mười"
+
+msgid "Odd"
+msgstr ""
 
 msgid "Offset"
 msgstr "Bù đắp"
@@ -1528,6 +1567,9 @@ msgstr "Vui lòng nhập tên token"
 
 msgid "Please enter the verification code sent to your email"
 msgstr "Vui lòng nhập mã xác minh được gửi tới email của bạn"
+
+msgid "Please enter time in the format HH:MM"
+msgstr ""
 
 msgid "Please enter your city address"
 msgstr "Vui lòng nhập địa chỉ phố của bạn"
@@ -1795,9 +1837,6 @@ msgstr "Phiên"
 msgid "Session duration limit, in minutes"
 msgstr "Giới hạn thời lượng phiên, bằng phút"
 
-msgid "Session is not authenticated"
-msgstr "Phiên không được cấp phép"
-
 msgid "Settles"
 msgstr "Cài đặt"
 
@@ -1874,6 +1913,12 @@ msgstr "Chốt"
 msgid "Spreads"
 msgstr "Lan tỏa"
 
+msgid "Spreads down"
+msgstr ""
+
+msgid "Spreads up"
+msgstr ""
+
 msgid "Stake"
 msgstr "Cổ phần"
 
@@ -1900,6 +1945,9 @@ msgstr "Trạng thái"
 
 msgid "Stays In/Goes Out"
 msgstr "Ở trong/Ra ngoài"
+
+msgid "Stays in"
+msgstr ""
 
 msgid "Stocks trading experience"
 msgstr "Kinh nghiệm giao dịch cổ phiếu"
@@ -2052,6 +2100,9 @@ msgstr "Thời hạn"
 msgid "Time interval"
 msgstr "Khoảng thời gian"
 
+msgid "Time out until"
+msgstr ""
+
 msgid "Time period"
 msgstr "Thời hạn"
 
@@ -2115,6 +2166,9 @@ msgstr "Tổng chi phí"
 
 msgid "Total Profit/Loss"
 msgstr "Tổng lợi nhuận/tổn thất"
+
+msgid "Touch"
+msgstr ""
 
 msgid "Touch/No Touch"
 msgstr "Chạm/Không chạm"
@@ -2186,6 +2240,9 @@ msgid "USD"
 msgstr "USD"
 
 msgid "USDJPY"
+msgstr ""
+
+msgid "Under"
 msgstr ""
 
 msgid "Unfortunately, your browser does not support them"
@@ -2577,6 +2634,12 @@ msgstr "{hoa hồng cho đại lý}%"
 
 msgid "| Return"
 msgstr "| Quay trở lại"
+
+#~ msgid "Error getting data for"
+#~ msgstr "Lỗi lấy dữ liệu cho"
+
+#~ msgid "Session is not authenticated"
+#~ msgstr "Phiên không được cấp phép"
 
 #~ msgid "--- title: Page Not Found permalink: /404.html excerpt: \"\" ---"
 #~ msgstr ""

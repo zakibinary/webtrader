@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-13 08:49+0200\n"
-"PO-Revision-Date: 2016-10-21 06:35+0000\n"
+"PO-Revision-Date: 2016-12-23 09:45+0000\n"
 "Last-Translator: Freddy Hew <hewfreddy@gmail.com>\n"
 "Language-Team: Chinese (China) <https://hosted.weblate.org/projects/binary-"
 "webtrader/translations/zh_CN/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.9-dev\n"
+"X-Generator: Weblate 2.11-dev\n"
 
 msgid "%D MA Type"
 msgstr "%D MA 类型"
@@ -196,7 +196,7 @@ msgid "ADX Stroke"
 msgstr "ADX 波幅"
 
 msgid "AM"
-msgstr ""
+msgstr "早上"
 
 msgid "ATR Period"
 msgstr "ATR 期限"
@@ -284,6 +284,12 @@ msgstr "阿隆下行线波幅"
 
 msgid "Aroon Up Stroke"
 msgstr "阿隆上升线波幅"
+
+msgid "Asian down"
+msgstr ""
+
+msgid "Asian up"
+msgstr ""
 
 msgid "Asians"
 msgstr "亚洲期权"
@@ -415,7 +421,7 @@ msgid "Chrome"
 msgstr "Chrome"
 
 msgid "Clear"
-msgstr ""
+msgstr "清除"
 
 msgid "Click Jacking test"
 msgstr "点击劫持测试"
@@ -458,6 +464,9 @@ msgstr "连接出错：请刷新页面"
 
 msgid "Construction"
 msgstr "建筑"
+
+msgid "Contact Us"
+msgstr "联系我们"
 
 msgid "Continue"
 msgstr "继续"
@@ -577,7 +586,7 @@ msgid "Delete level(s)"
 msgstr "删除水平"
 
 msgid "Demo for affiliates to access Webtrader charts"
-msgstr ""
+msgstr "联盟成员访问Webtrader图表的演示"
 
 msgid "Demo for affiliates to access Webtrader charts in IFRAME"
 msgstr "在IFRAME查看联盟会员访问Webtrader图表的演示"
@@ -595,6 +604,9 @@ msgid "Description"
 msgstr "说明"
 
 msgid "Deselect"
+msgstr "取消选择"
+
+msgid "Differs"
 msgstr ""
 
 msgid "Digits"
@@ -607,7 +619,7 @@ msgid "Don't have an account yet? Sign up and get a $10,000 virtual account"
 msgstr "还未开立账户？请注册并获取10,000美元虚拟账户"
 
 msgid "Done"
-msgstr ""
+msgstr "已完成"
 
 msgid "Done. The funds are being transferred to the payment agent"
 msgstr "已完成。资金已转给支付代理"
@@ -667,7 +679,7 @@ msgid "EMA"
 msgstr "EMA"
 
 msgid "EURUSD"
-msgstr ""
+msgstr "欧元美元"
 
 msgid "Edge"
 msgstr "边缘"
@@ -690,6 +702,12 @@ msgstr "结束时间"
 msgid "Ends In/Out"
 msgstr "“范围之内/之外”收盘"
 
+msgid "Ends in"
+msgstr ""
+
+msgid "Ends out"
+msgstr ""
+
 msgid "Ensure you are entering valid inputs else your account will get locked"
 msgstr "请确认您输入有效数据，不然账户将被封锁"
 
@@ -705,14 +723,17 @@ msgstr "入市现价"
 msgid "Error downloading .csv"
 msgstr "下载.csv时发生错误"
 
-msgid "Error getting data for"
-msgstr "获取以下数据时出错"
+msgid "Error getting data for %1"
+msgstr "获取 %1数据时出错"
 
 msgid "Error getting market information!"
 msgstr "获取市场信息时出错！"
 
 msgid "Estimated Net Worth"
 msgstr "估计净值"
+
+msgid "Even"
+msgstr ""
 
 msgid "Exclude me from the website until"
 msgstr "禁止我访问本网站直到"
@@ -804,6 +825,9 @@ msgstr "从"
 msgid "Further instructions"
 msgstr "详细说明"
 
+msgid "Goes out"
+msgstr ""
+
 msgid "Gray"
 msgstr "灰色"
 
@@ -831,6 +855,9 @@ msgstr "高价位"
 msgid "High Stroke"
 msgstr "高价波幅"
 
+msgid "High barrier"
+msgstr ""
+
 msgid "High barrier offset"
 msgstr "高障碍位移"
 
@@ -856,7 +883,7 @@ msgid "Horizontal line"
 msgstr "水平线"
 
 msgid "Hour"
-msgstr ""
+msgstr "小时"
 
 msgid "Hours"
 msgstr "小时"
@@ -1018,7 +1045,7 @@ msgid "Load chart template"
 msgstr "加载图表模板"
 
 msgid "Load trade template"
-msgstr ""
+msgstr "加载交易模板"
 
 msgid "Loading"
 msgstr "加载"
@@ -1104,6 +1131,9 @@ msgstr "低价"
 msgid "Low Stroke"
 msgstr "低行程"
 
+msgid "Low barrier"
+msgstr ""
+
 msgid "Low barrier offset"
 msgstr "低障碍位移"
 
@@ -1138,6 +1168,9 @@ msgstr "三月"
 
 msgid "Mass Period"
 msgstr "梅斯线期限"
+
+msgid "Matches"
+msgstr ""
 
 msgid "Max/Min Period"
 msgstr "最大/最小期限"
@@ -1188,7 +1221,7 @@ msgid "Minus the agent's commission"
 msgstr "减去代理佣金"
 
 msgid "Minute"
-msgstr ""
+msgstr "分钟"
 
 msgid "Minutes"
 msgstr "分钟"
@@ -1262,6 +1295,9 @@ msgstr "新密码"
 msgid "No"
 msgstr "否"
 
+msgid "No touch"
+msgstr ""
+
 msgid "Note that tokens can possess one or more of these scopes"
 msgstr "请注意，令牌可能拥有一或多个领域"
 
@@ -1306,6 +1342,9 @@ msgstr "十月"
 
 msgid "October"
 msgstr "十月"
+
+msgid "Odd"
+msgstr ""
 
 msgid "Offset"
 msgstr "位移"
@@ -1380,7 +1419,7 @@ msgid "PDF"
 msgstr "PDF"
 
 msgid "PM"
-msgstr ""
+msgstr "下午"
 
 msgid "PNG"
 msgstr "PNG"
@@ -1480,6 +1519,9 @@ msgstr "请输入令牌名称"
 
 msgid "Please enter the verification code sent to your email"
 msgstr "请输入发送到您邮箱的验证码"
+
+msgid "Please enter time in the format HH:MM"
+msgstr "请输入时间，格式为小时：分钟"
 
 msgid "Please enter your city address"
 msgstr "请输入您的城市住址"
@@ -1745,9 +1787,6 @@ msgstr "会话"
 msgid "Session duration limit, in minutes"
 msgstr "交易期持续时间限制，以分钟为单位"
 
-msgid "Session is not authenticated"
-msgstr "会话未经验证"
-
 msgid "Settles"
 msgstr "结算"
 
@@ -1823,6 +1862,12 @@ msgstr "Spline法"
 msgid "Spreads"
 msgstr "价差交易"
 
+msgid "Spreads down"
+msgstr ""
+
+msgid "Spreads up"
+msgstr ""
+
 msgid "Stake"
 msgstr "投注资金"
 
@@ -1849,6 +1894,9 @@ msgstr "统计"
 
 msgid "Stays In/Goes Out"
 msgstr "“保持在范围之内/超出范围之外”"
+
+msgid "Stays in"
+msgstr ""
 
 msgid "Stocks trading experience"
 msgstr "股票交易经验"
@@ -1908,10 +1956,10 @@ msgid "Tel"
 msgstr "电话"
 
 msgid "Template applied partially"
-msgstr ""
+msgstr "部分模板已经使用"
 
 msgid "Template is not applicable"
-msgstr ""
+msgstr "模板不适用"
 
 msgid "Template name"
 msgstr "模板名称"
@@ -1993,6 +2041,9 @@ msgstr "期限"
 msgid "Time interval"
 msgstr "时间间隔"
 
+msgid "Time out until"
+msgstr "时间已过。下次开启时间为"
+
 msgid "Time period"
 msgstr "期限"
 
@@ -2020,7 +2071,7 @@ msgid ""
 msgstr "要取款前请输入刚发送到您邮箱的特殊验证令牌码"
 
 msgid "Today"
-msgstr ""
+msgstr "今天"
 
 msgid "Token"
 msgstr "令牌"
@@ -2050,6 +2101,9 @@ msgstr "成本总计"
 
 msgid "Total Profit/Loss"
 msgstr "利润/亏损合计"
+
+msgid "Touch"
+msgstr ""
 
 msgid "Touch/No Touch"
 msgstr "触及/未触及"
@@ -2115,6 +2169,9 @@ msgid "USD"
 msgstr "美元"
 
 msgid "USDJPY"
+msgstr "美元日元"
+
+msgid "Under"
 msgstr ""
 
 msgid "Unfortunately, your browser does not support them"
@@ -2150,7 +2207,7 @@ msgid ""
 msgstr "使用\"另存为...\"按钮保存图表设置、类型、时间段、指标和比较"
 
 msgid "Use the \"Save as ...\" button to save the trade settings"
-msgstr ""
+msgstr "使用“另存为...”按键保存交易设置"
 
 msgid "Verification code has been sent to your email"
 msgstr "验证代码已发送到您的邮箱"
@@ -2492,6 +2549,12 @@ msgstr "{代理.佣金}%"
 
 msgid "| Return"
 msgstr "回报率"
+
+#~ msgid "Error getting data for"
+#~ msgstr "获取以下数据时出错"
+
+#~ msgid "Session is not authenticated"
+#~ msgstr "会话未经验证"
 
 #~ msgid "--- title: Page Not Found permalink: /404.html excerpt: \"\" ---"
 #~ msgstr "--- 标题：找不到页面的固定链接：/404.html 摘录: \"\" ---"

@@ -28,7 +28,7 @@ define(['jquery', 'text!oauth/app_id.json', 'common/util'], function ($, app_ids
     var connect = function () {
         var config = local_storage.get('config');
         var i18n_name = (local_storage.get('i18n') || { value: 'en' }).value;
-        var api_url = ((config && config.websocket_url)  || 'wss://ws.binaryws.com/websockets/v3?l='+i18n_name) + '&brand=champion' + '&app_id=' + app_id;
+        var api_url = ((config && config.websocket_url)  || 'wss://ws.binaryws.com/websockets/v3?l='+i18n_name) + '&brand=champion&app_id=' + app_id;
         var ws = new WebSocket(api_url);
 
         ws.addEventListener('open', onopen);
@@ -44,6 +44,8 @@ define(['jquery', 'text!oauth/app_id.json', 'common/util'], function ($, app_ids
     }
 
     var onclose = function () {
+      require(['windows/tracker'],function(tracker) {
+        var trade_dialogs = tracker.get_trade_dialogs();
         is_authenitcated_session = false;
         fire_event('logout');
         /**
@@ -52,23 +54,39 @@ define(['jquery', 'text!oauth/app_id.json', 'common/util'], function ($, app_ids
          **/
         setTimeout(function(){
             socket = connect();
-            if(local_storage.get('oauth'))
-              api.cached.authorize();
+            if(local_storage.get('oauth')) {
+              api.cached.authorize().then(function() {
+                tracker.reopen_trade_dialogs(trade_dialogs);
+              });
+            }
             require(['charts/chartingRequestMap'], function (chartingRequestMap) {
+                var chart_registration_promises = [];
                 Object.keys(chartingRequestMap).forEach(function (key) {
                     var req = chartingRequestMap[key];
                     if (req && req.symbol && !req.timerHandler) { /* resubscribe */
-                        chartingRequestMap.register({
+                      var promise = chartingRequestMap.register({
                           symbol: req.symbol,
                           granularity: req.granularity,
                           subscribe: 1,
                           count: 1,
                           style: req.granularity > 0 ? 'candles' : 'ticks'
-                        }).catch(function (err) { console.error(err); });
+                        })
+                        .catch(function (err) { console.error(err); });
+                      chart_registration_promises.push(promise);
                     }
                 });
+                /* refresh the charts when they are reregistered.  */
+                Promise.all(chart_registration_promises)
+                  .then(function() {
+                      require(['charts/charts', 'charts/chartOptions'], function(charts, chartOptions) {
+                        chartOptions.getAllChartsWithTheirTypes().forEach(function(chart) {
+                          charts.refresh('#' + chart.id + '_chart', null, chart.chartType);
+                        });
+                      });
+                  })
             });
         }, 1000);
+      });
     }
 
     var callbacks = {};

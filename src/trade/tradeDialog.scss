@@ -67,6 +67,9 @@
 
   .categories-row {
     margin-bottom: 5px;
+    .ui-selectmenu-button .ui-selectmenu-text {
+      padding-left: 0.5em;
+    }
   }
 
   .trade-template-manager {

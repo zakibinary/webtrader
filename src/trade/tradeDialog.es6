@@ -46,6 +46,7 @@ import 'css!trade/tradeDialog.css';
 import 'timepicker';
 import 'jquery-ui';
 import 'common/util';
+import help from 'help/help';
 
 require(['trade/tradeConf']); /* trigger async loading of trade Confirmation */
 var replacer = function (field_name, value) { return function (obj) { obj[field_name] = value; return obj; }; };
@@ -230,6 +231,7 @@ function set_current_template(state, tpl) {
 function init_state(available,root, dialog, symbol, contracts_for_spot){
 
   var state = {
+    is_champion: isChampionFx(),
     duration: {
       array: ['Duration', 'End Time'],
       value: 'Duration',
@@ -389,6 +391,10 @@ function init_state(available,root, dialog, symbol, contracts_for_spot){
     template: {
       name: '',
       visible: false,
+    },
+    openHelp: ()=>{
+      $.growl.notice({message:"Loading help text for ".i18n() + state.categories.value});
+      help.showSpecificContent(state.categories.value);
     }
   };
 

@@ -87,7 +87,7 @@ define(["jquery", "moment", "lodash", "websockets/binary_websockets", "common/ri
 
         function getType(id){
           if(!id) return;
-          var type = {MLT:"Investment", MF:"Gaming",VRTC:"Virtual",REAL:"Real",VRCH:"Virtual"};
+          var type = {MF:"Investment", MLT:"Gaming",VRTC:"Virtual",REAL:"Real",VRCH:"Virtual"};
           var id = id.match(/^(MLT|MF|VRTC|VRCH)/i) ? id.match(/^(MLT|MF|VRTC|VRCH)/i)[0] : "REAL";
           return type[id]+" Account";
         };

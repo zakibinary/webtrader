@@ -205,7 +205,8 @@ class Withdraw {
                 verify.disabled = true;
                 liveapi.send({
                         cashier: 'withdraw',
-                        verification_code: verify.token
+                        verification_code: verify.token,
+                        provider: 'epg'
                     })
                     .then(data => {
                         if (data.cashier.startsWith('ASK_')) { /* error code */

@@ -164,7 +164,7 @@ module.exports = function (grunt) {
                 overwrite: true,
                 replacements: [{
                     from: '<style-url>',
-                    to: 'https://style.champion-fx.com'
+                    to: 'https://4p00rv.github.io/binary-style/'
                 }]
             }
         },

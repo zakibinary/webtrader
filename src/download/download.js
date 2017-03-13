@@ -36,7 +36,7 @@ define(["jquery", "windows/windows","websockets/binary_websockets","navigation/m
             ]
         }
     ];
-    var WIDTH = 900, HEIGHT = 500, tp; // tp is timeperiod, required for exporting in csv format.
+    var WIDTH = 990, HEIGHT = 500, tp; // tp is timeperiod, required for exporting in csv format.
     //Used in exportOverlay.
     var i18n_name = (local_storage.get('i18n') || { value: 'en' }).value,
         appURL = getAppURL(); // Get current app's url.

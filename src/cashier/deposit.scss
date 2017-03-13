@@ -47,16 +47,6 @@
       height: 100%;
       border: none;
     }
-    .rotating-logo {
-      position: absolute;
-      top: 100px;
-      left: calc(50% - 100px);
-      width: 200px;
-      height: 200px;
-      background:url(../images/binary-symbol-logo.svg) center center no-repeat;
-      background-size: 100% 100%;
-      animation: deposit-rotate 1.4s linear infinite;
-    }
   }
 
   /* --------------------- PAYMENT-AGENTS -----------------------------------*/

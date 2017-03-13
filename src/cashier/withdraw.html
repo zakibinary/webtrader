@@ -55,7 +55,13 @@
       <span class='ui-icon ui-icon-triangle-1-w'></span> Back
     </span>
 
-		<div rv-if='standard.iframe_visible | eq false' class='rotating-logo'></div>
+		<div rv-if='standard.iframe_visible | eq false' class="barspinner dark">
+	        <div class="rect1"></div>
+	        <div class="rect2"></div>
+	        <div class="rect3"></div>
+	        <div class="rect4"></div>
+	        <div class="rect5"></div>
+	    </div>
 		<iframe rv-attr-src='standard.url'
 						rv-show='standard.iframe_visible'
 						rv-on-load='standard.iframe_loaded'></iframe>

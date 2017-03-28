@@ -79,7 +79,7 @@ module.exports = function (grunt) {
                             'rivets/dist/rivets.min.js',
                             'sightglass/index.js',
                             'jquery-sparkline/dist/jquery.sparkline.min.js',
-                            'moment/min/moment.min.js',
+                            'moment/min/moment.min.js', 'moment/locale/**',
                             'ddslick/jquery.ddslick.min.js',
                             '!**/**/favicon.ico',
                             'parallel.js/lib/**',
@@ -290,7 +290,7 @@ module.exports = function (grunt) {
                     //Check the negate option. Its not working
                     //Currently open ticket https://github.com/rhiokim/grunt-sloc/issues/14
                     //TODO
-                    src: ['**/*.js', '**/*.css', '**/*.html', '!**/libs/**']
+                    src: ['**/*.js', '**/*.es6', '**/*.css', '**/*.html', '!**/libs/**']
                 }
             }
         },

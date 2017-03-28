@@ -22,15 +22,20 @@ msgstr ""
 msgid ""
 "'Asian Fall' - You win when the last tick is lower than the average of the "
 "ticks during the trade"
-msgstr "「Asian ダウン」 - 最終Tickが取引期間中のTick平均値より低い場合に条件が満たされます"
+msgstr ""
+"「Asian ダウン」 - 最終Tickが取引期間中のTick平均値より低い場合に条件が満たさ"
+"れます"
 
 msgid ""
 "'Asian Rise' - You win when the last tick is higher than the average of the "
 "ticks during the trade"
-msgstr "「Asian アップ」 - 最終Tickが取引期間中のTick平均値より高い場合に条件が満たされます"
+msgstr ""
+"「Asian アップ」 - 最終Tickが取引期間中のTick平均値より高い場合に条件が満たさ"
+"れます"
 
 msgid "'Best Customer Communication Firm' award by Investors Chronicle"
-msgstr "Investors Chronicleによる「ベストカスタマーコミュニケーション会社」賞を受賞"
+msgstr ""
+"Investors Chronicleによる「ベストカスタマーコミュニケーション会社」賞を受賞"
 
 msgid "'Best Fixed-Odds Broker' silver award by Trade2Win"
 msgstr "Trade2Winによる「ベスト固定オッズブローカー賞」銀賞受賞"
@@ -38,7 +43,9 @@ msgstr "Trade2Winによる「ベスト固定オッズブローカー賞」銀賞
 msgid ""
 "'Best Fixed-Odds Financial Provider' award by Financial Times and Investors "
 "Chronicle UK"
-msgstr "Financial TimesとInvestors Chronicle UKによる「ベスト固定オッズ金融プロバイダー賞」受賞"
+msgstr ""
+"Financial TimesとInvestors Chronicle UKによる「ベスト固定オッズ金融プロバイ"
+"ダー賞」受賞"
 
 msgid ""
 "'Best Fixed-Odds Financial Trading Provider' award by Shares Magazine UK"
@@ -50,7 +57,8 @@ msgstr "Global BankingとFinance Reviewによる「ベスト固定オッズ会�
 msgid ""
 "'Differs' - You win when the last digit of the last tick does not match your "
 "prediction"
-msgstr "「アンマッチ」 - 最終値が予想した数字と合致しない場合に条件が満たされます"
+msgstr ""
+"「アンマッチ」 - 最終値が予想した数字と合致しない場合に条件が満たされます"
 
 msgid "'Financial Betting Operator of the Year' award by eGaming Review"
 msgstr "eGaming Reviewによる「ベッティング金融業者オブザイヤー」受賞"
@@ -58,7 +66,9 @@ msgstr "eGaming Reviewによる「ベッティング金融業者オブザイヤ�
 msgid ""
 "'Matches' - You win when the last digit of the last tick matches your "
 "prediction"
-msgstr "「マッチ」 - 最終Tickの下一桁が、予想した数字と合致した場合に条件が満たされます"
+msgstr ""
+"「マッチ」 - 最終Tickの下一桁が、予想した数字と合致した場合に条件が満たされま"
+"す"
 
 msgid "'contract period'"
 msgstr ""
@@ -80,15 +90,16 @@ msgid ""
 "variety of financial indices. Business grows quickly, and we soon become the "
 "market leader in fixed-odds financial betting"
 msgstr ""
-"）各種金融インデックスにおいて24時間体制の金融ベッティングサービスを確立。（日本では提供しておりません。）急速な発展を遂げ、固定オッズ金融ベッティング業"
-"界における市場リーダーとなるのも遅くはありません。"
+"）各種金融インデックスにおいて24時間体制の金融ベッティングサービスを確立。"
+"（日本では提供しておりません。）急速な発展を遂げ、固定オッズ金融ベッティング"
+"業界における市場リーダーとなるのも遅くはありません。"
 
 msgid ""
 "- Binary.com benchmarks its prices daily against inter-bank derivatives "
 "markets"
 msgstr ""
-"- Binary.comではインターバンク取引と同じリターン率から利益を得ることができます。当社の価格はインターバンクオプション市場のベンチマークを用いて"
-"います。"
+"- Binary.comではインターバンク取引と同じリターン率から利益を得ることができま"
+"す。当社の価格はインターバンクオプション市場のベンチマークを用いています。"
 
 msgid ""
 "- Binary.com ensures your personal data and transactions are always secure"
@@ -112,22 +123,29 @@ msgstr ""
 
 msgid ""
 "- Binary.com is the industry pioneer and holds patented pricing technology"
-msgstr "- Binary.comは業界のパイオニアであり、価格設定の特許技術を保持しています"
+msgstr ""
+"- Binary.comは業界のパイオニアであり、価格設定の特許技術を保持しています"
 
 msgid ""
 "- Binary.com offers many payment methods, such as credit/debit cards, bank "
 "wires, e-cash and e-wallets"
-msgstr "- Binary.comでは多様な決済方法を提供しています。日本国内でのご利用は銀行振込のみとなります。"
+msgstr ""
+"- Binary.comでは多様な決済方法を提供しています。日本国内でのご利用は銀行振込"
+"のみとなります。"
 
 msgid ""
 "- Binary.com quotes a trade and the counter-trade, so you always get "
 "unbiased, transparent prices"
-msgstr "- Binary.comではトレードと店頭取引を採用しているため、常に公平で、透明性のある価格でお取引いただけます"
+msgstr ""
+"- Binary.comではトレードと店頭取引を採用しているため、常に公平で、透明性のあ"
+"る価格でお取引いただけます"
 
 msgid ""
 "- binaries are licensed as a betting activity in the UK, so your winnings "
 "are tax-free"
-msgstr "- バイナリーはイギリスでライセンス認定された賭博活動のため、ペイアウトは非課税です"
+msgstr ""
+"- バイナリーはイギリスでライセンス認定された賭博活動のため、ペイアウトは非課"
+"税です"
 
 msgid "- choose intraday trades from 1 minute to 24 hours"
 msgstr "- 2時間から取引期間を選択"
@@ -135,7 +153,9 @@ msgstr "- 2時間から取引期間を選択"
 msgid ""
 "- choose the falls trade, lower trade, one-touch trade with a low barrier, "
 "or no-touch trade with a high barrier"
-msgstr "- 下限バリアを用いたワンタッチトレードまたは上限バリアを用いたノータッチトレードをご選択ください"
+msgstr ""
+"- 下限バリアを用いたワンタッチトレードまたは上限バリアを用いたノータッチト"
+"レードをご選択ください"
 
 msgid ""
 "- choose the no-touch trade, the stays-between trade, or the ends-between "
@@ -404,9 +424,6 @@ msgstr "4時間"
 msgid "40 transactions or more in the past 12 months"
 msgstr "過去12ヶ月で40以上のお取引"
 
-msgid "404"
-msgstr "404"
-
 msgid "4h"
 msgstr "4時間"
 
@@ -622,9 +639,6 @@ msgid ""
 "candle with an upper shadow below the doji's low"
 msgstr ""
 
-msgid "AM"
-msgstr "AM"
-
 msgid "Abandoned Baby (CDLABANDONEDBABY)"
 msgstr ""
 
@@ -636,9 +650,6 @@ msgstr "承諾"
 
 msgid "Account balance"
 msgstr "口座残高"
-
-msgid "Account opening"
-msgstr "口座開設"
 
 msgid "Action"
 msgstr "売買"
@@ -655,14 +666,8 @@ msgstr "指標を追加（英語表示のみ）"
 msgid "Add level"
 msgstr "レベルを追加"
 
-msgid "Add/remove comparisons"
-msgstr "比較チャート追加/削除"
-
 msgid "Add/remove indicators"
 msgstr "指標を追加/削除（英語表示のみ）"
-
-msgid "Add/remove overlays"
-msgstr "オーバーレイの追加/削除"
 
 msgid "Admin"
 msgstr "管理者"
@@ -761,9 +766,6 @@ msgstr "8月"
 
 msgid "August"
 msgstr "8月"
-
-msgid "Average"
-msgstr "平均"
 
 msgid "Average Directional Movement Index (ADX)"
 msgstr ""
@@ -875,6 +877,12 @@ msgstr ""
 
 msgid "Binary options or other financial derivatives"
 msgstr "バイナリーオプション または その他金融派生商品"
+
+msgid "Binary options or other financial derivatives trading experience"
+msgstr ""
+
+msgid "Binary options or other financial derivatives trading frequency"
+msgstr ""
 
 msgid "Binary trading is flexible"
 msgstr ""
@@ -1263,9 +1271,6 @@ msgstr "比較チャート"
 msgid "Conditions"
 msgstr "条件"
 
-msgid "Config changes successful"
-msgstr "設定が変更されました"
-
 msgid "Confirm transfer"
 msgstr "送金を実行する"
 
@@ -1283,9 +1288,6 @@ msgstr "取引を継続"
 
 msgid "Contract"
 msgstr "取引内容"
-
-msgid "Contract Confirmation"
-msgstr "トレード確定"
 
 msgid "Contract period"
 msgstr ""
@@ -1343,9 +1345,6 @@ msgstr "現在時刻："
 
 msgid "Custom Theme"
 msgstr "カスタムテーマ"
-
-msgid "Customize chart appearance"
-msgstr "チャートの外観をカスタマイズする"
 
 msgid "Daily limit on losses"
 msgstr "損失限度額（1日）"
@@ -1430,9 +1429,6 @@ msgstr "後で認識できるよう、このトークンの説明を記入して
 msgid "Description"
 msgstr "取引内容"
 
-msgid "Deselect"
-msgstr "選択解除"
-
 msgid ""
 "Developed by Donald Dorsey, the Mass Index uses the high-low range to "
 "identify trend reversals based on range expansions. In this sense, the Mass "
@@ -1504,9 +1500,6 @@ msgstr ""
 msgid "Donchian Channel (DC)"
 msgstr ""
 
-msgid "Done"
-msgstr "完了"
-
 msgid "Done. The funds are being transferred to the payment agent"
 msgstr ""
 "送金が完了しました。ご選択いただいた決済サービスへ資金が送金されました。"
@@ -1550,14 +1543,17 @@ msgstr "SVGでダウンロード"
 msgid "Download as"
 msgstr "ダウンロード"
 
-msgid "Downloading .csv"
-msgstr ".csvファイルでダウンロード"
-
 msgid "Dragonfly Doji (CDLDRAGONFLYDOJI)"
 msgstr ""
 
 msgid "Drawing tools"
 msgstr "描画ツール"
+
+msgid ""
+"Due to recent changes in the regulations, we are required to ask our clients "
+"to complete the following Financial Assessment. Please note that you will "
+"not be able to continue trading until this is completed"
+msgstr ""
 
 msgid "Duration"
 msgstr "期間"
@@ -1590,9 +1586,6 @@ msgstr "編集"
 msgid "Education"
 msgstr "お役立ち情報"
 
-msgid "Email verification failed"
-msgstr "Eメール認証に失敗しました"
-
 msgid "Embed code"
 msgstr "埋め込みコード"
 
@@ -1614,11 +1607,6 @@ msgstr "END-OUT"
 msgid "Engulfing Pattern (CDLENGULFING)"
 msgstr ""
 
-msgid "Ensure you are entering valid inputs else your account will get locked"
-msgstr ""
-"入力内容が有効であることをよくお確かめください。情報が無効である場合、口座が"
-"ロックされますのでご注意ください。"
-
 msgid "Enter your current password"
 msgstr "現在のパスワードを入力してください"
 
@@ -1630,12 +1618,6 @@ msgstr "取引時刻直後のテック"
 
 msgid "Entry spot price"
 msgstr ""
-
-msgid "Error downloading .csv"
-msgstr ".csvファイルのダウンロード中にエラーが発生しました"
-
-msgid "Error getting data for %1"
-msgstr "%1のデータ取得中にエラーが発生しました"
 
 msgid "Estimated Net Worth"
 msgstr "推定純資産"
@@ -1658,6 +1640,9 @@ msgstr "特定日まで利用禁止（日時単位）"
 msgid "Exit Spot"
 msgstr "終値"
 
+msgid "Exit Spot Time"
+msgstr ""
+
 msgid "Exit spot"
 msgstr "終値"
 
@@ -1669,9 +1654,6 @@ msgstr "取引概要"
 
 msgid "Exponential Moving Average (EMA)"
 msgstr ""
-
-msgid "Failed to update the password"
-msgstr "パスワードの変更に失敗しました"
 
 msgid "Fall"
 msgstr "Fall"
@@ -1714,8 +1696,8 @@ msgstr "最終価格"
 msgid "Finance"
 msgstr "金融"
 
-msgid "Financial Account Opening form"
-msgstr "口座開設申請フォーム"
+msgid "Financial Information"
+msgstr ""
 
 msgid "Financial Security"
 msgstr ""
@@ -1728,6 +1710,9 @@ msgstr ""
 
 msgid "Firefox"
 msgstr "Firefox"
+
+msgid "First line of home address"
+msgstr ""
 
 msgid "First name"
 msgstr "名前（名）"
@@ -1825,14 +1810,14 @@ msgstr ""
 msgid "Harami Pattern (CDLHARAMI)"
 msgstr ""
 
-msgid "Have better luck at trading!"
-msgstr "お取引に幸あれ！"
-
 msgid "Health"
 msgstr "健全度"
 
 msgid "Help"
 msgstr ""
+
+msgid "High Barrier"
+msgstr "高限バリア"
 
 msgid "High Price"
 msgstr "高値"
@@ -1867,14 +1852,8 @@ msgstr "現住所"
 msgid "Homing Pigeon (CDLHOMINGPIGEON)"
 msgstr ""
 
-msgid "Horizontal Line"
-msgstr "水平線"
-
 msgid "Horizontal line"
 msgstr "水平線"
-
-msgid "Hour"
-msgstr "時間"
 
 msgid "Hours"
 msgstr "時間"
@@ -1927,9 +1906,6 @@ msgstr ""
 
 msgid "Identical Three Crows (CDLIDENTICAL3CROWS)"
 msgstr ""
-
-msgid "If the issue keeps happening, please contact"
-msgstr "問題が解決されないようでしたら、〜までご連絡ください"
 
 msgid "If you select a"
 msgstr "xxxを選択した場合"
@@ -2125,9 +2101,6 @@ msgstr "7月"
 
 msgid "July"
 msgstr "7月"
-
-msgid "Jump to"
-msgstr "xxxへ移動する"
 
 msgid "Jun"
 msgstr "6月"
@@ -2330,6 +2303,9 @@ msgid ""
 "candle but closes above first bar's open"
 msgstr ""
 
+msgid "Low Barrier"
+msgstr "下限バリア"
+
 msgid "Low Price"
 msgstr "安値"
 
@@ -2445,14 +2421,20 @@ msgstr ""
 msgid "Minimum 6 characters and must contain at least 1 digit"
 msgstr "数字を含む6文字以上でご入力ください"
 
+msgid "Minimum of 2 characters required"
+msgstr ""
+
+msgid "Minimum of 4 characters required"
+msgstr ""
+
+msgid "Minimum of 6 characters required"
+msgstr ""
+
 msgid "Minimum price over selected period"
 msgstr ""
 
 msgid "Minus the agent's commission"
 msgstr "決済サービスの手数料を引く"
-
-msgid "Minute"
-msgstr "分"
 
 msgid "Minutes"
 msgstr "分"
@@ -2624,11 +2606,26 @@ msgid ""
 "website has received over 15 million trades"
 msgstr ""
 
+msgid "Only letters, numbers, hyphen are allowed"
+msgstr ""
+
+msgid "Only letters, numbers, space, hyphen, period, apostrophe are allowed"
+msgstr ""
+
+msgid "Only letters, numbers, space, period, comma, - / @ ' are allowed"
+msgstr ""
+
 msgid "Only letters, numbers, space, period, comma, dash(-)"
 msgstr ""
 
-msgid "Oops... Page Not Available"
-msgstr "ページをご利用いただくことができません"
+msgid "Only letters, space, hyphen, period, apostrophe are allowed"
+msgstr ""
+
+msgid "Only numbers and space are allowed"
+msgstr ""
+
+msgid "Only numbers, letters, hyphens are allowed"
+msgstr ""
 
 msgid "Open"
 msgstr "Open"
@@ -2661,9 +2658,6 @@ msgid ""
 msgstr ""
 "オプション取引は依存性があります。依存を防ぐために、当社ではお客様のお取引や"
 "口座の概要を定期的に提供するリアリティチェックを行っています"
-
-msgid "Optional field, within 20 characters and may not contain '+'"
-msgstr "任意の項目は、20字以内で'+'を含めないようにしてください"
 
 msgid "Other"
 msgstr "その他"
@@ -2707,29 +2701,11 @@ msgstr ""
 msgid "PDF"
 msgstr "PDF"
 
-msgid "PM"
-msgstr "PM"
-
 msgid "PNG"
 msgstr "PNG"
 
-msgid "Page Not Found"
-msgstr "ページが存在しません"
-
 msgid "Parabolic SAR (SAR)"
 msgstr ""
-
-msgid "Password must be 6 characters minimum"
-msgstr "パスワードは6文字以上でご入力ください"
-
-msgid "Password must contain lower and uppercase letters with numbers"
-msgstr "パスワードには大文字と小文字を含む英字と数字を組み合わせてください"
-
-msgid "Password must contain uppercase letters and numbers"
-msgstr "パスワードに大文字の英字と数字を含めてください"
-
-msgid "Password successfully updated"
-msgstr "パスワードは正常に変更されました"
 
 msgid "Passwords didn't match. Please type them again"
 msgstr "パスワードが一致しませんでした。再度お試しください。"
@@ -2781,11 +2757,11 @@ msgid ""
 "place (i.e. 0.0001)"
 msgstr ""
 
+msgid "Place of birth"
+msgstr ""
+
 msgid "Please"
 msgstr "どうぞ"
-
-msgid "Please answer to secret question, within 4-50 characters"
-msgstr "4-50文字以内で、秘密の質問にお答えください"
 
 msgid "Please choose which currency you would like to transact in"
 msgstr "ご希望の取引通貨を選択してください"
@@ -2793,17 +2769,11 @@ msgstr "ご希望の取引通貨を選択してください"
 msgid "Please confirm the following details in order to complete the transfer"
 msgstr "送金を完了するために、下記詳細をご確認ください"
 
-msgid "Please enter a number between"
-msgstr "XXX間の数字をご入力ください"
-
 msgid "Please enter a valid date in yyyy-mm-dd format"
 msgstr "有効な日付をご入力ください（年月日）"
 
-msgid "Please enter a value for"
-msgstr "XXXの値をご入力ください"
-
-msgid "Please enter a vlaid phone number"
-msgstr "有効な電話番号をご入力ください"
+msgid "Please enter a value greater than 0"
+msgstr ""
 
 msgid "Please enter correct email"
 msgstr "正しいメールアドレスをご入力ください"
@@ -2811,38 +2781,14 @@ msgstr "正しいメールアドレスをご入力ください"
 msgid "Please enter date in the format YYYY-MM-DD"
 msgstr "年月日の順で日付をご入力ください"
 
-msgid "Please enter the verification code sent to your email"
-msgstr "お客様のメールアドレスに送信された認証コードをご入力ください"
-
 msgid "Please enter time in the format HH:MM"
 msgstr "時刻の形式をHH:MMで入力してください"
-
-msgid "Please enter your city address"
-msgstr "市区町村をご入力ください"
 
 msgid "Please enter your current password"
 msgstr "現在のパスワードをご入力ください"
 
 msgid "Please enter your email"
 msgstr "メールアドレスをご入力ください"
-
-msgid "Please enter your family name"
-msgstr "氏名（姓）をご入力ください"
-
-msgid "Please enter your first name"
-msgstr "氏名（名）をご入力ください"
-
-msgid "Please enter your new password"
-msgstr "新しいパスワードをご入力ください"
-
-msgid "Please enter your password"
-msgstr "パスワードをご入力ください"
-
-msgid "Please enter your phone number"
-msgstr "電話番号をご入力ください"
-
-msgid "Please enter your street address"
-msgstr "番地をご入力ください"
 
 msgid "Please input correct token"
 msgstr ""
@@ -2851,14 +2797,17 @@ msgid "Please install the latest version of one of these browsers"
 msgstr ""
 "いずれかのブラウザをご利用の方は最新バージョンをインストールしてください"
 
+msgid "Please provide your tax information"
+msgstr ""
+
 msgid "Please select"
 msgstr "選択してください"
 
+msgid "Please submit a valid verification token"
+msgstr ""
+
 msgid "Please try again after 1 minute"
 msgstr "1分後に再度お試しください"
-
-msgid "Please use your new password to login"
-msgstr "新しいパスワードでログインをしてください"
 
 msgid "Plot"
 msgstr "プロット"
@@ -2898,6 +2847,9 @@ msgstr "好ましいリアリティチェック実施間隔"
 msgid "Press Create token button on the right to create your first token"
 msgstr "最初のトークンを作成するには、右の トークン作成 ボタンを押してください"
 
+msgid "Price"
+msgstr "価格"
+
 msgid "Price Transformation"
 msgstr ""
 
@@ -2927,9 +2879,6 @@ msgstr "チャートを印刷"
 
 msgid "Profit"
 msgstr "利益"
-
-msgid "Profit Table"
-msgstr "取引明細"
 
 msgid "Profit table"
 msgstr "取引明細"
@@ -2969,18 +2918,9 @@ msgstr ""
 msgid "Read"
 msgstr "読む"
 
-msgid "Real Money Account Opening"
-msgstr "リアル口座開設"
-
-msgid "Reality check"
-msgstr "リアリティチェック"
-
 msgid ""
 "Reap the rewards of trading binaries, knowing your funds are always safe"
 msgstr ""
-
-msgid "Redirecting to oauth login page"
-msgstr "OAuthログインページヘリダイレクト"
 
 msgid "Ref"
 msgstr "参照"
@@ -3037,14 +2977,11 @@ msgstr ""
 msgid "Register free account"
 msgstr "無料口座に登録"
 
-msgid "Registration"
-msgstr "登録"
-
 msgid "Relative Strength Index (RSI)"
 msgstr ""
 
-msgid "Reloading page"
-msgstr "ページを再度読み込む"
+msgid "Remove"
+msgstr ""
 
 msgid "Remove Selected"
 msgstr "選択項目を削除"
@@ -3057,9 +2994,6 @@ msgstr "パスワード再入力"
 
 msgid "Resale price"
 msgstr ""
-
-msgid "Reset to Defaults"
-msgstr "既定にリセット"
 
 msgid "Reset zoom"
 msgstr "ズームをリセット"
@@ -3078,9 +3012,6 @@ msgstr "結果"
 
 msgid "Return"
 msgstr "リターン率"
-
-msgid "Return to trading page"
-msgstr "トレードページに戻る"
 
 msgid "Rickshaw Man (CDLRICKSHAWMAN)"
 msgstr ""
@@ -3139,6 +3070,9 @@ msgstr "変更が保存されました"
 msgid "Scalable trading"
 msgstr ""
 
+msgid "Second line of home address"
+msgstr ""
+
 msgid "Secondary"
 msgstr "第二"
 
@@ -3160,20 +3094,8 @@ msgstr "取引制限"
 msgid "Sell At Market"
 msgstr "売却"
 
-msgid "Sell Price"
-msgstr "売却"
-
-msgid "Sell Spot"
-msgstr "売却レート"
-
-msgid "Sell Time"
-msgstr "売却時間"
-
 msgid "Sell option"
 msgstr ""
-
-msgid "Send to account #"
-msgstr "口座 #へ送金"
 
 msgid "Sent to account"
 msgstr "口座に送金"
@@ -3240,9 +3162,6 @@ msgstr ""
 
 msgid "Sold"
 msgstr "売却"
-
-msgid "Some random index"
-msgstr "スローランダムインデックス"
 
 msgid "Spinning Top (CDLSPINNINGTOP)"
 msgstr ""
@@ -3368,14 +3287,8 @@ msgstr "利益ストップ"
 msgid "Stop-type"
 msgstr "ストップタイプ"
 
-msgid "Street address"
-msgstr "番地"
-
 msgid "Stroke"
 msgstr "ストローク"
-
-msgid "Stroke color"
-msgstr "ストロークカラー"
 
 msgid "Stroke width"
 msgstr "ストローク幅"
@@ -3410,6 +3323,15 @@ msgstr ""
 msgid "Tasuki Gap (CDLTASUKIGAP)"
 msgstr ""
 
+msgid "Tax identification number"
+msgstr ""
+
+msgid "Tax information"
+msgstr ""
+
+msgid "Tax residence"
+msgstr ""
+
 msgid "Tax-free"
 msgstr ""
 
@@ -3421,9 +3343,6 @@ msgstr "テンプレート名"
 
 msgid "Terms"
 msgstr "各種規約"
-
-msgid "Terms and Conditions"
-msgstr "利用規約"
 
 msgid "Tertiary"
 msgstr "第三"
@@ -3791,6 +3710,15 @@ msgstr ""
 msgid ""
 "The financial trading services contained within this site are only suitable "
 "for customers who are able to bear the loss of all the money they invest and "
+"who understand and have experience of the risk involved in the acquistion of "
+"financial contracts. Transactions in financial contracts carry a high degree "
+"of risk. If purchased contracts expire worthless, you will suffer a total "
+"loss of your investment, which consists of the contract premium"
+msgstr ""
+
+msgid ""
+"The financial trading services contained within this site are only suitable "
+"for customers who are able to bear the loss of all the money they invest and "
 "who understand and have experience of the risk involved in the aquistion of "
 "financial contracts. Transactions in financial contracts carry a high degree "
 "of risk. If purchased contracts expire worthless, you will suffer a total "
@@ -3836,13 +3764,6 @@ msgid ""
 "The market exit price is the price in effect at the end of the contract "
 "period"
 msgstr ""
-
-msgid ""
-"The page you requested could not be found. Either it no longer exists or the "
-"address is wrong. Please check for any typos"
-msgstr ""
-"リクエストされたページが見つかりません。存在していないか、アドレスに誤りがあ"
-"ります。再度ご確認ください"
 
 msgid ""
 "The parabolic SAR is calculated almost independently for each trend in the "
@@ -3957,12 +3878,6 @@ msgid ""
 "the smoothness and high sensitivity of the Moving Average. Sigma is another "
 "parameter that is responsible for the shape of the curve coefficients"
 msgstr ""
-
-msgid "This contract lost"
-msgstr "トレードの条件が満たされませんでした"
-
-msgid "This contract won"
-msgstr "トレードの条件が満たされました"
 
 msgid "This field is required"
 msgstr "この項目は必須です"
@@ -4085,9 +4000,6 @@ msgstr ""
 "資金のご出金には、お客様のアドレスに只今送信されたワンタイムパスワードをご入"
 "力ください"
 
-msgid "Today"
-msgstr "今日"
-
 msgid "Token"
 msgstr "トークン"
 
@@ -4192,6 +4104,9 @@ msgstr ""
 msgid "Tradingview for Binary.com"
 msgstr "Binary.comのTradingView"
 
+msgid "Transfer"
+msgstr ""
+
 msgid "Transfer to another Binary account"
 msgstr "他のBinary口座へ送金する"
 
@@ -4275,6 +4190,9 @@ msgstr ""
 msgid "Upcoming Events"
 msgstr "取引時間短縮日"
 
+msgid "Update"
+msgstr ""
+
 msgid "Update Settings"
 msgstr "設定内容を更新"
 
@@ -4315,17 +4233,11 @@ msgstr "偏差 (VAR)"
 msgid "Verification code has been sent to your email"
 msgstr "認証コードが送信されました"
 
-msgid "Verification code sent to"
-msgstr "認証コードが送信されました"
-
 msgid "Verification token"
 msgstr "ワンタイムパスワード"
 
 msgid "Verify new password"
 msgstr "新しいパスワード（確認用）"
-
-msgid "Vertical Line"
-msgstr "垂直線"
 
 msgid "Vertical line"
 msgstr "垂直線"
@@ -4557,11 +4469,6 @@ msgstr ""
 "お客様のBinry.com口座が作成されました。お取引を開始するには、ウェブトレーダー"
 "のアクセスを許可頂く必要があります"
 
-msgid "Your account is locked, please contact customer support for more info"
-msgstr ""
-"お客様の口座は現在ロックされています。詳しくはカスタマーサポートまでご連絡く"
-"ださい。"
-
 msgid "Your browser is not supported"
 msgstr "お使いのブラウザは対応しておりません"
 
@@ -4593,9 +4500,6 @@ msgid ""
 "and-drop  simplicity"
 msgstr ""
 
-msgid "and"
-msgstr "かつ"
-
 msgid "apostrophe (') are allowed"
 msgstr ""
 
@@ -4614,9 +4518,6 @@ msgstr ""
 "口座開設にお進みください。その際は、リスクを判断したり、軽減させるための知識"
 "や経験がないために、自信へ生じるリスク（投資全体の損失リスクを含むような重大"
 "になりうるものなど）について注意していただく必要があります。"
-
-msgid "between"
-msgstr "間"
 
 msgid "commission"
 msgstr "手数料"
@@ -4800,6 +4701,226 @@ msgid ""
 "products"
 msgstr ""
 
+#~ msgid "404"
+#~ msgstr "404"
+
+#~ msgid "AM"
+#~ msgstr "AM"
+
+#~ msgid "Account opening"
+#~ msgstr "口座開設"
+
+#~ msgid "Add/remove comparisons"
+#~ msgstr "比較チャート追加/削除"
+
+#~ msgid "Add/remove overlays"
+#~ msgstr "オーバーレイの追加/削除"
+
+#~ msgid "Average"
+#~ msgstr "平均"
+
+#~ msgid "Config changes successful"
+#~ msgstr "設定が変更されました"
+
+#~ msgid "Contract Confirmation"
+#~ msgstr "トレード確定"
+
+#~ msgid "Customize chart appearance"
+#~ msgstr "チャートの外観をカスタマイズする"
+
+#~ msgid "Deselect"
+#~ msgstr "選択解除"
+
+#~ msgid "Done"
+#~ msgstr "完了"
+
+#~ msgid "Downloading .csv"
+#~ msgstr ".csvファイルでダウンロード"
+
+#~ msgid "Email verification failed"
+#~ msgstr "Eメール認証に失敗しました"
+
+#~ msgid ""
+#~ "Ensure you are entering valid inputs else your account will get locked"
+#~ msgstr ""
+#~ "入力内容が有効であることをよくお確かめください。情報が無効である場合、口座"
+#~ "がロックされますのでご注意ください。"
+
+#~ msgid "Error downloading .csv"
+#~ msgstr ".csvファイルのダウンロード中にエラーが発生しました"
+
+#~ msgid "Error getting data for %1"
+#~ msgstr "%1のデータ取得中にエラーが発生しました"
+
+#~ msgid "Failed to update the password"
+#~ msgstr "パスワードの変更に失敗しました"
+
+#~ msgid "Financial Account Opening form"
+#~ msgstr "口座開設申請フォーム"
+
+#~ msgid "Have better luck at trading!"
+#~ msgstr "お取引に幸あれ！"
+
+#~ msgid "Horizontal Line"
+#~ msgstr "水平線"
+
+#~ msgid "Hour"
+#~ msgstr "時間"
+
+#~ msgid "If the issue keeps happening, please contact"
+#~ msgstr "問題が解決されないようでしたら、〜までご連絡ください"
+
+#~ msgid "Jump to"
+#~ msgstr "xxxへ移動する"
+
+#~ msgid "Minute"
+#~ msgstr "分"
+
+#~ msgid "Oops... Page Not Available"
+#~ msgstr "ページをご利用いただくことができません"
+
+#~ msgid "Optional field, within 20 characters and may not contain '+'"
+#~ msgstr "任意の項目は、20字以内で'+'を含めないようにしてください"
+
+#~ msgid "PM"
+#~ msgstr "PM"
+
+#~ msgid "Page Not Found"
+#~ msgstr "ページが存在しません"
+
+#~ msgid "Password must be 6 characters minimum"
+#~ msgstr "パスワードは6文字以上でご入力ください"
+
+#~ msgid "Password must contain lower and uppercase letters with numbers"
+#~ msgstr "パスワードには大文字と小文字を含む英字と数字を組み合わせてください"
+
+#~ msgid "Password must contain uppercase letters and numbers"
+#~ msgstr "パスワードに大文字の英字と数字を含めてください"
+
+#~ msgid "Password successfully updated"
+#~ msgstr "パスワードは正常に変更されました"
+
+#~ msgid "Please answer to secret question, within 4-50 characters"
+#~ msgstr "4-50文字以内で、秘密の質問にお答えください"
+
+#~ msgid "Please enter a number between"
+#~ msgstr "XXX間の数字をご入力ください"
+
+#~ msgid "Please enter a value for"
+#~ msgstr "XXXの値をご入力ください"
+
+#~ msgid "Please enter a vlaid phone number"
+#~ msgstr "有効な電話番号をご入力ください"
+
+#~ msgid "Please enter the verification code sent to your email"
+#~ msgstr "お客様のメールアドレスに送信された認証コードをご入力ください"
+
+#~ msgid "Please enter your city address"
+#~ msgstr "市区町村をご入力ください"
+
+#~ msgid "Please enter your family name"
+#~ msgstr "氏名（姓）をご入力ください"
+
+#~ msgid "Please enter your first name"
+#~ msgstr "氏名（名）をご入力ください"
+
+#~ msgid "Please enter your new password"
+#~ msgstr "新しいパスワードをご入力ください"
+
+#~ msgid "Please enter your password"
+#~ msgstr "パスワードをご入力ください"
+
+#~ msgid "Please enter your phone number"
+#~ msgstr "電話番号をご入力ください"
+
+#~ msgid "Please enter your street address"
+#~ msgstr "番地をご入力ください"
+
+#~ msgid "Please use your new password to login"
+#~ msgstr "新しいパスワードでログインをしてください"
+
+#~ msgid "Profit Table"
+#~ msgstr "取引明細"
+
+#~ msgid "Real Money Account Opening"
+#~ msgstr "リアル口座開設"
+
+#~ msgid "Reality check"
+#~ msgstr "リアリティチェック"
+
+#~ msgid "Redirecting to oauth login page"
+#~ msgstr "OAuthログインページヘリダイレクト"
+
+#~ msgid "Registration"
+#~ msgstr "登録"
+
+#~ msgid "Reloading page"
+#~ msgstr "ページを再度読み込む"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "既定にリセット"
+
+#~ msgid "Return to trading page"
+#~ msgstr "トレードページに戻る"
+
+#~ msgid "Sell Price"
+#~ msgstr "売却"
+
+#~ msgid "Sell Spot"
+#~ msgstr "売却レート"
+
+#~ msgid "Sell Time"
+#~ msgstr "売却時間"
+
+#~ msgid "Send to account #"
+#~ msgstr "口座 #へ送金"
+
+#~ msgid "Some random index"
+#~ msgstr "スローランダムインデックス"
+
+#~ msgid "Street address"
+#~ msgstr "番地"
+
+#~ msgid "Stroke color"
+#~ msgstr "ストロークカラー"
+
+#~ msgid "Terms and Conditions"
+#~ msgstr "利用規約"
+
+#~ msgid ""
+#~ "The page you requested could not be found. Either it no longer exists or "
+#~ "the address is wrong. Please check for any typos"
+#~ msgstr ""
+#~ "リクエストされたページが見つかりません。存在していないか、アドレスに誤りが"
+#~ "あります。再度ご確認ください"
+
+#~ msgid "This contract lost"
+#~ msgstr "トレードの条件が満たされませんでした"
+
+#~ msgid "This contract won"
+#~ msgstr "トレードの条件が満たされました"
+
+#~ msgid "Today"
+#~ msgstr "今日"
+
+#~ msgid "Verification code sent to"
+#~ msgstr "認証コードが送信されました"
+
+#~ msgid "Vertical Line"
+#~ msgstr "垂直線"
+
+#~ msgid ""
+#~ "Your account is locked, please contact customer support for more info"
+#~ msgstr ""
+#~ "お客様の口座は現在ロックされています。詳しくはカスタマーサポートまでご連絡"
+#~ "ください。"
+
+#~ msgid "and"
+#~ msgstr "かつ"
+
+#~ msgid "between"
+#~ msgstr "間"
+
 #~ msgid "%D MA Type"
 #~ msgstr "%D MA タイプ"
 
@@ -4899,9 +5020,6 @@ msgstr ""
 #~ msgid "Fast Period"
 #~ msgstr "高速 期間"
 
-#~ msgid "High Barrier"
-#~ msgstr "高限バリア"
-
 #~ msgid "High Stroke"
 #~ msgstr "高ストローク"
 
@@ -4943,9 +5061,6 @@ msgstr ""
 
 #~ msgid "Long Term Period"
 #~ msgstr "長期"
-
-#~ msgid "Low Barrier"
-#~ msgstr "下限バリア"
 
 #~ msgid "Low Stroke"
 #~ msgstr "低ストローク"
@@ -5023,9 +5138,6 @@ msgstr ""
 
 #~ msgid "Plot Color"
 #~ msgstr "プロットカラー"
-
-#~ msgid "Price"
-#~ msgstr "価格"
 
 #~ msgid "Purchase Time"
 #~ msgstr "購入時間"

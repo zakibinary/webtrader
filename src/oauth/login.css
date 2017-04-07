@@ -45,6 +45,7 @@
 .oauth-dialog .login-dialog {
   box-sizing: border-box;
   overflow: hidden !important;
+  display: flex;
 }
 .oauth-dialog .login-dialog > div {
   line-height: 1.5em;

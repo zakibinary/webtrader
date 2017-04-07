@@ -84,6 +84,9 @@ const refreshTable = () => {
             ])
         .then((results) => {
             try {
+                if(isChampionFx())
+                    _.remove(results[0].trading_times.markets, {name:"Volatility Indices"});
+
                 assets = results[1].asset_index;
                 markets = processMarketSubmarkets(results[0]);
                 const header = assetWin.parent().find('.ui-dialog-title').addClass('with-content');

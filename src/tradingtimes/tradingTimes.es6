@@ -136,7 +136,6 @@ const initTradingWin = ($html) => {
       const refresh = (data) => {
          data = menu.extractChartableMarkets(data);
          const result = processData(data);
-
          if (market_names == null) {
             const select = $('<select />');
             select.appendTo(subheader);

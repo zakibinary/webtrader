@@ -33,7 +33,6 @@ function refresh_active_symbols() {
                 }).value();
                 return market;
             }).value();
-            console.log(chartable_markets);
             markets = active_markets.map(function(m) {
                 return {
                     display_name: m.display_name,

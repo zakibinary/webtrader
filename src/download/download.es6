@@ -81,6 +81,8 @@ import html from 'text!./download.html';
                                 '_blank'
                             );
                         }
+                        if(isChampionFx())
+                            $(this.credits.element).remove();
                     }
                 },
                 spacingLeft: 0,

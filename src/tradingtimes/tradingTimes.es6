@@ -136,6 +136,10 @@ const initTradingWin = ($html) => {
       const refresh = (data) => {
          data = menu.extractChartableMarkets(data);
          const result = processData(data);
+
+         if(isChampionFx())
+            _.remove(result.market_names,_ => _==="Volatility Indices");
+
          if (market_names == null) {
             const select = $('<select />');
             select.appendTo(subheader);

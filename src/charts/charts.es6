@@ -301,7 +301,7 @@ export const drawChart = (containerIDWithHash, options, onload) => {
                         onload();
                     }
 
-                    if (isAffiliates() && isHideFooter()) {
+                    if (isAffiliates() && isHideFooter() || isChampionFx()) {
                         $(this.credits.element).remove();
                         this.margin[2] = 5;
                         this.spacing[2] = 0;

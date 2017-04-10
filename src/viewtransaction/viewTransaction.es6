@@ -81,6 +81,8 @@ const init_chart = (root, state, options) => {
          events: {
             load: function() {
                this.credits.element.onclick = () => window.open( 'https://www.binary.com', '_blank' );
+               if(isChampionFx())
+                  $(this.credits.element).remove();
             }
          }
       },

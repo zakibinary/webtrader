@@ -165,6 +165,8 @@ const createChart = () => {
          events: {
             load: function() {
                this.credits.element.onclick = () => window.open( 'http://www.binary.com', '_blank');
+               if(isChampionFx())
+                 $(this.credits.element).remove();
             }
          }
       },

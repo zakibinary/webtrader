@@ -33,23 +33,12 @@ function refresh_active_symbols() {
                 }).value();
                 return market;
             }).value();
-            markets = chartable_markets.map(function(m) {
+            markets = active_markets.map(function(m) {
                 return {
                     display_name: m.display_name,
                     name: m.name,
-                    submarkets: m.submarkets.map(function(sm) {
-                        return {
-                            display_name: sm.display_name,
-                            instruments: sm.instruments.filter(function(ins) {
-                                return active_symbols.indexOf(ins.symbol) !== -1;
-                            })
-                        }
-                    }).filter(function(sm) {
-                        return sm.instruments.length !== 0;
-                    })
+                    submarkets: m.submarkets
                 }
-            }).filter(function(m) {
-                return m.submarkets.length !== 0;
             });
 
             //console.warn(markets, chartable_markets);

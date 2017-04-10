@@ -15,9 +15,6 @@ const refresh_active_symbols = () => {
    liveapi
       .send({ active_symbols: 'brief', "landing_company": "champion" })
       .then((data) => {
-         // remove volatility for champion-fx.
-         if(isChampionFx())
-            _.remove(data.active_symbols, ['market','volidx']);
          /* clean up the data! */
          let markets = _(data.active_symbols).groupBy('market').map((symbols) => {
             const sym = _.head(symbols);

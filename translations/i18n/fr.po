@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 01:48+0200\n"
-"PO-Revision-Date: 2017-01-20 14:43+0000\n"
+"PO-Revision-Date: 2017-02-21 13:25+0000\n"
 "Last-Translator: Chloe Chevreton <chloe-che@hotmail.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/binary-webtrader/"
 "translations/fr/>\n"
@@ -12,25 +12,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.11-dev\n"
+"X-Generator: Weblate 2.12-dev\n"
 
 msgid ""
 "\"http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-"
 "funds.aspx\""
 msgstr ""
+"\"http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-"
+"funds.aspx\""
 
 msgid ""
 "'Asian Fall' - You win when the last tick is lower than the average of the "
 "ticks during the trade"
 msgstr ""
+"« Asiatique/baisse » : vous gagnez si le dernier tick est inférieur à la "
+"moyenne des ticks"
 
 msgid ""
 "'Asian Rise' - You win when the last tick is higher than the average of the "
 "ticks during the trade"
 msgstr ""
+"« Asiatique/hausse » : vous gagnez si le dernier tick est supérieur à la "
+"moyenne des ticks"
 
 msgid "'Best Customer Communication Firm' award by Investors Chronicle"
 msgstr ""
+"Prix de la « meilleure relation client » décerné par Investors Chronicle"
 
 msgid "'Best Fixed-Odds Broker' silver award by Trade2Win"
 msgstr ""
@@ -1214,6 +1221,9 @@ msgstr "Test de Click Jacking"
 msgid "Click to log in with your Binary.com account"
 msgstr "Cliquez pour vous connecter à votre compte Binary.com."
 
+msgid "Close"
+msgstr ""
+
 msgid "Close Price"
 msgstr "Prix de fermeture"
 
@@ -1351,9 +1361,6 @@ msgstr "Vert foncé"
 
 msgid "Dark Unica"
 msgstr "Dark Unica"
-
-msgid "Dash style"
-msgstr "Ligne discontinue"
 
 msgid "Date"
 msgstr "Date"
@@ -1797,6 +1804,9 @@ msgstr "Santé"
 msgid "Help"
 msgstr ""
 
+msgid "High"
+msgstr ""
+
 msgid "High Barrier"
 msgstr "Barrière supérieure"
 
@@ -2156,9 +2166,6 @@ msgstr "Moins de"
 msgid "Let's do it"
 msgstr "C'est parti"
 
-msgid "Level"
-msgstr "Niveau"
-
 msgid "Level of Education"
 msgstr "Niveau de qualification"
 
@@ -2290,6 +2297,9 @@ msgid ""
 "black candle has a body that gaps above the prior candle's body. The last "
 "day is another black candle, but this one engulfs the previous bearish "
 "candle but closes above first bar's open"
+msgstr ""
+
+msgid "Low"
 msgstr ""
 
 msgid "Low Barrier"
@@ -2846,9 +2856,6 @@ msgstr ""
 "Cliquez sur le bouton « Créer un jeton » sur la droite pour créer votre "
 "premier jeton"
 
-msgid "Price"
-msgstr "Prix"
-
 msgid "Price Transformation"
 msgstr ""
 
@@ -3285,12 +3292,6 @@ msgstr "Stop-profit"
 
 msgid "Stop-type"
 msgstr "Type d'ordre stop"
-
-msgid "Stroke"
-msgstr "Tracé"
-
-msgid "Stroke width"
-msgstr "Largeur du tracé"
 
 msgid "Submit"
 msgstr "Envoyer"
@@ -4707,13 +4708,31 @@ msgstr "oui"
 msgid "{agent.commission}%"
 msgstr "{agent.commission}%"
 
-msgid "| Return"
-msgstr "| Retours"
+msgid "| Payout"
+msgstr ""
 
 msgid ""
 "enabling clients, affiliates, and developers to buy and sell Binary.com "
 "products"
 msgstr ""
+
+#~ msgid "Dash style"
+#~ msgstr "Ligne discontinue"
+
+#~ msgid "Level"
+#~ msgstr "Niveau"
+
+#~ msgid "Price"
+#~ msgstr "Prix"
+
+#~ msgid "Stroke"
+#~ msgstr "Tracé"
+
+#~ msgid "Stroke width"
+#~ msgstr "Largeur du tracé"
+
+#~ msgid "| Return"
+#~ msgstr "| Retours"
 
 #~ msgid "404"
 #~ msgstr "404"

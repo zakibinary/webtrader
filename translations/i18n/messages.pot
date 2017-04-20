@@ -926,6 +926,9 @@ msgstr ""
 msgid "Click to log in with your Binary.com account"
 msgstr "" 
 
+msgid "Close"
+msgstr "" 
+
 msgid "Close Price"
 msgstr "" 
 
@@ -1053,9 +1056,6 @@ msgid "Dark Green"
 msgstr "" 
 
 msgid "Dark Unica"
-msgstr "" 
-
-msgid "Dash style"
 msgstr "" 
 
 msgid "Date"
@@ -1451,6 +1451,9 @@ msgstr ""
 msgid "Help"
 msgstr "" 
 
+msgid "High"
+msgstr "" 
+
 msgid "High Barrier"
 msgstr "" 
 
@@ -1706,9 +1709,6 @@ msgstr ""
 msgid "Let's do it"
 msgstr "" 
 
-msgid "Level"
-msgstr "" 
-
 msgid "Level of Education"
 msgstr "" 
 
@@ -1818,6 +1818,9 @@ msgid "Look for a tall black candle with a long lower shadow to appear in a down
 msgstr "" 
 
 msgid "Look for a tall white candle in an upward price trend. Following that, a black candle has a body that gaps above the prior candle's body. The last day is another black candle, but this one engulfs the previous bearish candle but closes above first bar's open"
+msgstr "" 
+
+msgid "Low"
 msgstr "" 
 
 msgid "Low Barrier"
@@ -2318,9 +2321,6 @@ msgstr ""
 msgid "Press Create token button on the right to create your first token"
 msgstr "" 
 
-msgid "Price"
-msgstr "" 
-
 msgid "Price Transformation"
 msgstr "" 
 
@@ -2718,12 +2718,6 @@ msgid "Stop-profit"
 msgstr "" 
 
 msgid "Stop-type"
-msgstr "" 
-
-msgid "Stroke"
-msgstr "" 
-
-msgid "Stroke width"
 msgstr "" 
 
 msgid "Submit"
@@ -3710,7 +3704,7 @@ msgstr ""
 msgid "{agent.commission}%"
 msgstr "" 
 
-msgid "| Return"
+msgid "| Payout"
 msgstr "" 
 
 msgid "enabling clients, affiliates, and developers to buy and sell Binary.com products"

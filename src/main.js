@@ -76,6 +76,9 @@ requirejs.config({
         },
         "highcharts-more": {
             deps: ["highstock"]
+        },
+        "color-picker": {
+            deps: ["jquery"] //This should fix the widget not found error
         }
     }
 });
@@ -295,16 +298,12 @@ require(["jquery", 'text!i18n/' + i18n_name + '.json'], function($, lang_json) {
                 // hide the main loading spinner,
                 // after the `last module` has been loaded.
                 $(".sk-spinner-container").hide();
-                // show the footer
-                windows.fixFooterPosition();
                 $('body > .footer').show();
             });
         });
-        /*Trigger account status check.*/
-        require(["shownotice/shownotice"]);
 
         /*Trigger T&C check, self-exclusion, reality check, chrome extension check, csr_tax_information check*/
-        require(['selfexclusion/selfexclusion', /*'chrome/chrome'*/, 'tc/tc', 'realitycheck/realitycheck', 'taxInformation/taxInformation', 'financialassessment/financialassessment']);
+        require(['selfexclusion/selfexclusion', 'chrome/chrome', 'accountstatus/accountstatus', 'realitycheck/realitycheck']);
     }
 
 

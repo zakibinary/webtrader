@@ -162,13 +162,6 @@ const createChart = () => {
          spacingLeft: 0,
          marginLeft: 45, /* disable the auto size labels so the Y axes become aligned */
          //,plotBackgroundImage: 'images/binary-watermark-logo.svg'
-         events: {
-            load: function() {
-               this.credits.element.onclick = () => window.open( 'http://www.binary.com', '_blank');
-               if(isChampionFx())
-                 $(this.credits.element).remove();
-            }
-         }
       },
       series: [{
          type: "candlestick",
@@ -187,8 +180,8 @@ const createChart = () => {
       },
 
       credits: {
-         href: 'http://www.binary.com',
-         text: 'Binary.com',
+         href: '#',
+         text: '',
       },
 
       xAxis: {

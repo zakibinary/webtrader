@@ -69,7 +69,7 @@ const init_chart = (root, state, options) => {
    const el = root.find('.transaction-chart')[0];
 
    const chart_options = {
-      credits: { href: 'https://www.binary.com', text: 'Binary.com' },
+      credits: { href: '#', text: '' },
       chart: {
          type: 'line',
          renderTo: el,
@@ -77,14 +77,7 @@ const init_chart = (root, state, options) => {
          width: 0,
          height: 0,
          marginLeft:20,
-         marginRight:20,
-         events: {
-            load: function() {
-               this.credits.element.onclick = () => window.open( 'https://www.binary.com', '_blank' );
-               if(isChampionFx())
-                  $(this.credits.element).remove();
-            }
-         }
+         marginRight:20
       },
       title:{
          text: '' // Removing the title because it is redundant.
@@ -191,8 +184,16 @@ export const init = (contract_id, transaction_id) => {
 
 const update_indicative = (data, state) => {
    const contract = data.proposal_open_contract;
-   const id = contract.contract_id,
+   const id = contract.contract_id || data.echo_req.contract_id,
       bid_price = contract.bid_price;
+   if(contract.is_sold && !contract.exit_tick && !contract.exit_level && !state.table.user_sold && !contract.sell_spot) {
+      
+      liveapi.send({contract_id: id, proposal_open_contract: 1});
+      return;
+   }
+   
+   state.table.user_sold = contract.sell_time && contract.sell_time < contract.date_expiry
+
    if(id != state.contract_id) { return; }
    if(contract.validation_error)
       state.validation = contract.validation_error;
@@ -228,8 +229,8 @@ const update_indicative = (data, state) => {
    }
    /*Required for spreads only*/
    if(state.table.contract_type === "SPREAD"){
-      state.table.profit = contract.bid_price - contract.buy_price;
-      state.table.profit_point = state.table.profit / state.table.per_point;
+      state.table.profit = contract.current_value_in_dollar;
+      state.table.profit_point = contract.current_value_in_point;
       state.table.entry_tick = contract.entry_level + '';
       if(state.table.entry_tick)
          state.table.current_spot = contract.current_level;
@@ -242,12 +243,19 @@ const update_indicative = (data, state) => {
       return;
    }
 
+   // Some times backend doesn't send the entry-spot in the beginning. Setting it here to avoid any errors.
+   state.table.entry_tick = contract.entry_tick ? contract.entry_tick : state.table.entry_tick;
+   state.table.entry_tick_time = contract.entry_tick_time ? contract.entry_tick_time : state.table.entry_tick_time;   
+
    if(contract.is_sold){
+      state.table.is_sold = contract.is_sold;
       state.table.exit_tick = contract.exit_tick;
       state.table.exit_tick_time = contract.exit_tick_time;
       state.table.sell_price = contract.sell_price;
       state.table.final_price = contract.sell_price;
       !state.table.user_sold && state.table.exit_tick_time && state.chart.chart.addPlotLineX({ value: state.table.exit_tick_time*1000, label: 'Exit Spot'.i18n(), text_left: true});
+      !state.table.user_sold && state.table.date_expiry && state.chart.chart.addPlotLineX({ value: state.table.date_expiry*1000, label: 'End Time'.i18n()});
+      state.table.user_sold && state.table.sell_price && state.chart.chart.addPlotLineX({ value: contract.sell_time*1000, label: 'Sell Time'.i18n()});
    }
 
    if(!state.chart.barrier && contract.barrier) {
@@ -308,6 +316,7 @@ const sell_at_market = (state, root) => {
    require(['text!viewtransaction/viewTransactionConfirm.html', 'css!viewtransaction/viewTransactionConfirm.css']);
    liveapi.send({sell: state.contract_id, price: 0 /* to sell at market */})
       .then((data) => {
+         state.table.user_sold = true; //User successfully sold the contract
          const sell = data.sell;
          require(['text!viewtransaction/viewTransactionConfirm.html', 'css!viewtransaction/viewTransactionConfirm.css'],
             (html) => {
@@ -413,11 +422,11 @@ const init_state = (proposal, root) =>{
       state.table.is_up = proposal.shortcode['spread'.length] === 'U';
       state.table.direction = state.table.is_up ? 1 : -1;
       state.table.amount_per_point = state.table.is_up? "+" + state.table.per_point : "-" + state.table.per_point;
-      state.table.is_sold = proposal.is_sold;
+      state.table.is_sold = proposal.is_sold || proposal.is_expired;
       state.table.exit_tick = proposal.exit_level
       state.table.exit_tick_time = state.table.is_sold ? proposal.sell_time : undefined;
-      state.table.profit = parseFloat(proposal.sell_price ? proposal.sell_price : proposal.bid_price) - parseFloat(proposal.buy_price);
-      state.table.profit_point = state.table.profit / state.table.per_point;
+      state.table.profit = parseFloat(proposal.current_value_in_dollar);
+      state.table.profit_point = parseFloat(proposal.current_value_in_point);
       state.table.pro_los = "Profit/Loss (" + state.table.currency.replace(" ","") + ")";
       state.table.entry_tick = proposal.entry_level;
       state.table.entry_tick_time = proposal.purchase_time;
@@ -491,8 +500,8 @@ const update_live_chart = (state, granularity) => {
          const tick = data.tick;
          chart && chart.series[0].addPoint([tick.epoch*1000, tick.quote*1]);
          /* stop updating when contract is expired */
-         if(tick.epoch*1 > state.table.date_expiry*1) {
-            if(perv_tick) {
+         if(tick.epoch*1 > state.table.date_expiry*1 || state.table.is_sold) {
+            if(perv_tick && state.table.contract_type !== 'SPREAD') {
                state.table.exit_tick = perv_tick.quote;
                state.table.exit_tick_time = perv_tick.epoch*1;
                state.validation = 'This contract has expired'.i18n();
@@ -595,6 +604,8 @@ const get_chart_data = (state, root) => {
 
       state.table.stop_loss_level && chart.addPlotLineY({value: state.table.stop_loss_level*1, label: 'Stop Loss ('.i18n() + state.table.stop_loss_level + ')', color: 'red'});
       state.table.stop_profit_level && chart.addPlotLineY({value: state.table.stop_profit_level*1, label: 'Stop Profit ('.i18n() + state.table.stop_profit_level + ')'});
+
+      state.table.user_sold && chart.addPlotLineX({ value: state.table.sell_time*1000, label: 'Sell Spot'.i18n(), text_left: true});
 
       state.chart.chart = chart;
       state.chart.manual_reflow();

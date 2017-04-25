@@ -73,18 +73,6 @@ import html from 'text!./download.html';
         $downloadChart.highcharts('StockChart', {
 
             chart: {
-                events: {
-                    load: function () {
-                        this.credits.element.onclick = () => {
-                            window.open(
-                                'http://www.binary.com',
-                                '_blank'
-                            );
-                        }
-                        if(isChampionFx())
-                            $(this.credits.element).remove();
-                    }
-                },
                 spacingLeft: 0,
                 marginLeft: 45
             },
@@ -113,8 +101,8 @@ import html from 'text!./download.html';
             },
 
             credits: {
-                href: 'http://www.binary.com',
-                text: 'Binary.com'
+                href: '#',
+                text: ''
             },
 
             xAxis: {
@@ -314,6 +302,9 @@ import html from 'text!./download.html';
                     liveapi
                         .cached.send({ trading_times: new Date().toISOString().slice(0, 10) })
                         .then((data) => {
+                            if(isChampionFx())
+                                _.remove(data.trading_times.markets,(obj) => obj.name==="Volatility Indices");
+
                             markets = menu.extractChartableMarkets(data);
                             /* add to instruments menu */
                             markets = menu.sortMenu(markets);

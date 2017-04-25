@@ -17,8 +17,8 @@ import 'jquery-growl';
 import $Hmw from 'common/highchartsMousewheel';
 import ins from 'instruments/instruments';
 
-const lang = local_storage.get("i18n") && local_storage.get("i18n").value.replace("_","-");
-if(lang && lang !== "en") // Load moment js locale file.
+const lang = local_storage.get("i18n") ? local_storage.get("i18n").value.replace("_","-") : 'en';
+if(lang !== "en") // Load moment js locale file.
     require(['moment-locale/'+lang]); 
 
 const indicator_values = _(JSON.parse(indicators_json)).values().value();
@@ -228,6 +228,11 @@ export const generate_csv = (chart, data) => {
 export const drawChart = (containerIDWithHash, options, onload) => {
     let indicators = [];
     let overlays = [];
+    let current_symbol = [];
+
+    liveapi.cached.send({active_symbols: "brief"}).then((data)=>{
+        current_symbol = _.filter(data.active_symbols,{symbol: options.instrumentCode})[0];
+    });
 
     if ($(containerIDWithHash).highcharts()) {
         //Just making sure that everything has been cleared out before starting a new thread
@@ -300,24 +305,12 @@ export const drawChart = (containerIDWithHash, options, onload) => {
                     if ($.isFunction(onload)) {
                         onload();
                     }
-
-                    if (isAffiliates() && isHideFooter() || isChampionFx()) {
-                        $(this.credits.element).remove();
-                        this.margin[2] = 5;
-                        this.spacing[2] = 0;
-                    } else {
-                        this.credits.element.onclick = () => {
-                            window.open(
-                                'http://webtrader.binary.com',
-                                '_blank'
-                            );
-                        }
-                    }
-
+                    this.margin[2] = 5;
+                    this.spacing[2] = 0;
                 }
             },
             spacingLeft: 0,
-            marginLeft: 45,
+            marginLeft: 55,
             /* disable the auto size labels so the Y axes become aligned */
             marginBottom: 15,
             spacingBottom: 15
@@ -364,8 +357,8 @@ export const drawChart = (containerIDWithHash, options, onload) => {
         },
 
         credits: {
-            href: 'http://webtrader.binary.com',
-            text: 'Binary.com : Webtrader',
+            href: '#',
+            text: '',
         },
 
         xAxis: {
@@ -393,12 +386,14 @@ export const drawChart = (containerIDWithHash, options, onload) => {
         yAxis: [{
             opposite: false,
             labels: {
+                reserveSpace: true,
                 formatter: function() {
+                    if(!current_symbol || !current_symbol.pip) return;
+                    const digits_after_decimal = (current_symbol.pip+"").split(".")[1].length;
                     if ($(containerIDWithHash).data("overlayIndicator")) {
                         return (this.value > 0 ? ' + ' : '') + this.value + '%';
-                    } else {
-                        return this.value;
-                    }
+                    } 
+                    return this.value.toFixed(digits_after_decimal);
                 },
                 align: 'center'
             }
@@ -420,7 +415,7 @@ export const drawChart = (containerIDWithHash, options, onload) => {
             }],
             formatter: function() {
                 moment.locale(lang); //Setting locale
-                var s = "<i>" + moment(this.x).format("dddd, DD MMM YYYY, HH:mm:ss") + "</i><br>";
+                var s = "<i>" + moment.utc(this.x).format("dddd, DD MMM YYYY, HH:mm:ss") + "</i><br>";
                 $.each(this.points, function(i){
                     s += '<span style="color:' + this.point.color + '">\u25CF </span>';
                     if(typeof this.point.open !=="undefined") { //OHLC chart

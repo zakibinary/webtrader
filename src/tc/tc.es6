@@ -34,7 +34,7 @@ export const init = () => {
             title: 'Terms and Conditions'.i18n(),
             width: 580,
             minHeight: 90,
-            height: 220,
+            height: 'auto',
             resizable: false,
             collapsable: false,
             minimizable: false,

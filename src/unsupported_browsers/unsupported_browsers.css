@@ -4,6 +4,9 @@
 table td{
 	border:none;
 }
+tr td {
+	text-align: center;
+}
 #mobile-nav {
     position: absolute;
     left: -280px;
@@ -70,11 +73,14 @@ p.alternatives {
 	color: #0C163A;
 	font-weight: bold;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 	#container{
 		display: none;
 	}
 	#mobile-container{
 	display: block;
+	}
+	.mobile-hide {
+		display: none;
 	}
 }

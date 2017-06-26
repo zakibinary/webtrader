@@ -261,7 +261,7 @@
   border-radius:3px;
 }
 .trade-fields ul li:nth-child(3) select + .ui-selectmenu-button { 
-  width: 100px !important; 
+  width: 105px !important; 
   height: 28px;
   border-radius:3px;
 }
@@ -279,7 +279,7 @@
 
 .trade-fields ul li:nth-child(2n) input:not([step]),
 .trade-fields ul li:nth-child(2n+3) input:not([step]) {
-  width: 100px !important;
+  width: 105px !important;
 }
 
 .trade-fields ul li select.date-start-select + .ui-selectmenu-button { width: 115px !important }

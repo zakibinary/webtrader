@@ -987,6 +987,7 @@ export function init(symbol, contracts_for, saved_template, isTrackerInitiated) 
 
     var dialog = windows.createBlankWindow(root, {
         title: symbol.display_name,
+        width: 355,
         resizable: false,
         collapsable: false,
         minimizable: true,

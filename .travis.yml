@@ -20,12 +20,9 @@ branches:
   - master
   - development
 before_install:
-- export DISPLAY=:99.0
-- sh -e /etc/init.d/xvfb start
-- sleep 3
 - yarn
 install:
-- yarn build-all
+# - yarn build-all
 # - yarn test Disabbling tests
 after_success:
 - git config --global user.email "arnab@binary.com"

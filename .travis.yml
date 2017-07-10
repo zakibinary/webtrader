@@ -12,7 +12,7 @@ node_js:
 - '7'
 dist: trusty
 notifications:
-  slack: binary-group:xEVrYY0QGz7fbwJqi4LMWbBS
+  #slack: binary-group:xEVrYY0QGz7fbwJqi4LMWbBS
   email:
   - ashkan@binary.com
 branches:

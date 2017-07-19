@@ -257,7 +257,7 @@ const setOrRefreshTimer = function() {
     //User cannot be active on website for 49 days, so we are setting the session time out to 49 days max
     if (logoutAfter_ms > Math.pow(2, 32)) { logoutAfter_ms = Math.pow(2, 32); }
     timerHandlerForSessionTimeout = setTimeout(function() {
-        $.growl.warning({ message: 'Logging out because of self-exclusion session time out!'.i18n() });
+        $.growl.error({ message: 'Logging out because of self-exclusion session time out!'.i18n() });
         liveapi.invalidate();
     }, logoutAfter_ms);
 

@@ -154,7 +154,7 @@ function get_current_template(state) {
 
 function set_current_template(state, tpl) {
   state.template.name = tpl.name;
-  var warn = function(msg) { $.growl.warning({ message: msg || 'Template applied partially.'.i18n() }); }
+  var warn = function(msg) { $.growl.error({ message: msg || 'Template applied partially.'.i18n() }); }
   if(!_.find(state.categories.array, tpl.categories_value)) {
     $.growl.error({ message: 'Template is not applicable.'.i18n() });
     return;
@@ -883,7 +883,7 @@ function init_state(available,root, dialog, symbol, contracts_for_spot){
     // manually check to see if the user is authenticated or not,
     // we should update state.currency from user profile first (not everyone is using USD)
     if(!liveapi.is_authenticated()) {
-        $.growl.warning({ message: 'Please log in'.i18n() });
+        $.growl.error({ message: 'Please log in'.i18n() });
         state.purchase.loading = false;
         return;
     }

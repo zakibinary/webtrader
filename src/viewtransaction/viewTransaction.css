@@ -31,7 +31,6 @@
   transition:color 0.3s;
 }
 .view-transaction-dialog ul li.active {
-  color: #E98024;
   position: relative;
 }
 .view-transaction-dialog ul li.active::before,

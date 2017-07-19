@@ -422,3 +422,10 @@ input[type="number"] {
     line-height: 20px;
     display: none;
 }
+/* Override charts css */
+.header-bar .tabs .tab.active {
+    border-bottom: 4px solid #fff !important;
+}
+.header-bar .categories span.active {
+    border-bottom: 4px solid #fff !important;
+}

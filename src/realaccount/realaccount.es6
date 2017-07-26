@@ -103,6 +103,8 @@ const init_state = (root, what_todo) => {
          pep: false,
          salutation: 'Mr',
          salutation_array: ['Mr', 'Mrs', 'Ms', 'Miss'],
+         account_opening_reason_array: ['Speculative', 'Income Earning', 'Assets Saving', 'Hedging'],
+         account_opening_reason: '',
          first_name: '',
          last_name: '',
          date_of_birth: '',
@@ -133,7 +135,7 @@ const init_state = (root, what_todo) => {
       financial: {
          experience_array: ['0-1 year', '1-2 years', 'Over 3 years'],
          frequency_array: ['0-5 transactions in the past 12 months', '6-10 transactions in the past 12 months', '40 transactions or more in the past 12 months'],
-
+         
          forex_trading_experience: '',
          forex_trading_frequency: '',
          indices_trading_experience: '',
@@ -161,6 +163,9 @@ const init_state = (root, what_todo) => {
          estimated_worth_array: ['Less than $100,000', '$100,000 - $250,000', '$250,001 - $500,000', '$500,001 - $1,000,000', 'Over $1,000,000'],
          estimated_worth: '',
 
+         account_turnover_array: ['Less than $25,000', '$25,000 - $50,000', '$50,001 - $100,000', '$100,001 - $500,000', 'Over $500,000'],
+         account_turnover: '',
+
          occupation_array: ["Chief Executives, Senior Officials and Legislators", "Managers", "Professionals", "Clerks",
             "Personal Care, Sales and Service Workers", "Agricultural, Forestry and Fishery Workers",
             "Craft, Metal, Electrical and Electronics Workers", "Plant and Machine Operators and Assemblers",
@@ -180,7 +185,7 @@ const init_state = (root, what_todo) => {
 
    state.user.is_valid = () => {
       const user = state.user;
-      return user.first_name !== '' &&
+      return state.user.account_opening_reason !== '' && user.first_name !== '' &&
          !/[~`!@#\$%\^\&\*\(\)\+=\{\}\[\]\\|:;\",<>?/\d]/.test(user.first_name) &&
          user.last_name !== '' &&
          !/[~`!@#\$%\^\&\*\(\)\+=\{\}\[\]\\|:;\",<>?/\d]/.test(user.last_name) &&
@@ -219,6 +224,7 @@ const init_state = (root, what_todo) => {
          salutation: user.salutation,
          first_name: user.first_name,
          last_name: user.last_name,
+         account_opening_reason: user.account_opening_reason,
          date_of_birth: user.date_of_birth,
          residence: user.residence,
          address_line_1: user.address_line_1,
@@ -254,30 +260,21 @@ const init_state = (root, what_todo) => {
          });
    };
 
-   state.financial.all_selected = () => {
-      const financial = state.financial;
-      return financial.forex_trading_experience !== '' &&
-         financial.forex_trading_frequency !== '' &&
-         financial.indices_trading_experience !== '' &&
-         financial.indices_trading_frequency !== '' &&
-         financial.commodities_trading_experience !== '' &&
-         financial.commodities_trading_frequency !== '' &&
-         financial.stocks_trading_experience !== '' &&
-         financial.stocks_trading_frequency !== '' &&
-         financial.other_derivatives_trading_experience !== '' &&
-         financial.other_derivatives_trading_frequency !== '' &&
-         financial.other_instruments_trading_experience !== '' &&
-         financial.other_instruments_trading_frequency !== '' &&
-         financial.employment_industry !== '' &&
-         financial.occupation !== '' &&
-         financial.education_level !== '' &&
-         financial.income_source !== '' &&
-         financial.net_income !== '' &&
-         financial.estimated_worth !== '';
+   state.financial.empty_fields = () => {
+      return state.financial.forex_trading_experience === '' ||
+          state.financial.forex_trading_frequency === '' || state.financial.indices_trading_experience === '' ||
+          state.financial.indices_trading_frequency === '' || state.financial.commodities_trading_experience === '' ||
+          state.financial.commodities_trading_frequency === '' || state.financial.stocks_trading_experience === '' ||
+          state.financial.stocks_trading_frequency === '' || state.financial.other_derivatives_trading_experience === '' ||
+          state.financial.other_derivatives_trading_frequency === '' || state.financial.other_instruments_trading_experience === '' ||
+          state.financial.other_instruments_trading_frequency === '' || state.financial.employment_industry === '' ||
+          state.financial.occupation === '' || state.financial.education_level === '' ||
+          state.financial.income_source === '' || state.financial.net_income === '' ||
+          state.financial.account_turnover === '' || state.financial.estimated_worth === '';
    };
 
    state.financial.click = () => {
-      if (!state.financial.all_selected()) {
+      if (state.financial.empty_fields()) {
          state.empty_fields.show();
          $.growl.error({ message: 'Not all financial information are completed' });
          return;
@@ -296,6 +293,7 @@ const init_state = (root, what_todo) => {
          new_account_maltainvest: 1,
          salutation: user.salutation,
          first_name: user.first_name,
+         account_opening_reason: user.account_opening_reason,
          last_name: user.last_name,
          date_of_birth: user.date_of_birth,
          residence: user.residence,
@@ -371,12 +369,8 @@ const init_state = (root, what_todo) => {
    }
 
    state.route.update = (route) => {
-      const routes = {
-         'user': 1010,
-         'financial': 1540
-      };
       state.route.value = route;
-      real_win.dialog('option', 'height', routes[route]);
+      //real_win.dialog('option', 'height', routes[route]);
       real_win.dialog('widget').trigger('dialogresizestop');
    };
 
@@ -389,6 +383,7 @@ const init_state = (root, what_todo) => {
          state.user.salutation = data.salutation || state.user.salutation;
          state.user.first_name = data.first_name || '';
          state.user.last_name = data.last_name || '';
+         state.user.account_opening_reason = data.account_opening_reason || '';
          state.user.date_of_birth = data.date_of_birth ? moment.unix(data.date_of_birth).format("YYYY-MM-DD") : moment().subtract(18, "years").format("YYYY-MM-DD");
          state.user.address_line_1 = data.address_line_1 || '';
          state.user.address_line_2 = data.address_line_2 || '';
@@ -418,8 +413,9 @@ const init_state = (root, what_todo) => {
          () => liveapi.cached.send({ states_list: state.user.residence })
       )
       .then((data) => {
-         state.user.state_address_array = data.states_list;
-         state.user.state_address = data.states_list[0].value;
+         console.log(data.states_list);
+         state.user.state_address_array = [{text:'Please select', value:''}, ...data.states_list];
+         state.user.state_address = state.user.state_address_array[0].value;
       })
       .catch(error_handler);
 }

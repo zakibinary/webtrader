@@ -17,6 +17,7 @@ const getType = (acc) => {
          MLT:"Gaming", 
          MF:"Investment",
          VRTC:"Virtual",
+         VRCH:"Virtual",
          REAL:(acc.currency || '').toUpperCase() || 'Real'
    };
    id = id.match(/^(MLT|MF|VRTC|VRCH)/i) ? id.match(/^(MLT|MF|VRTC|VRCH)/i)[0] : "REAL";

@@ -55,6 +55,14 @@ body > .footer .addiction-warning a:hover {
   text-decoration: underline;
 }
 
+.ui-dialog .ui-dialog-titlebar {
+    height: 35px;
+}
+
+.ui-dialog .ui-dialog-title {
+    position: relative;
+    top: -3px;
+}
 
 .ui-dialog .ui-dialog-titlebar-close { /* override jquery-ui.icons.css library */
   width: 14px;
@@ -427,15 +435,43 @@ input[type="number"] {
     display: none;
 }
 /* Override charts css */
+.chartSubContainerHeader {
+    margin-top: 5px!important;
+}
 .indicator-dialog .background-color {
     background: #004385!important;
 }
 .header-bar .tabs .tab.active {
     border-bottom: 4px solid #fff !important;
 }
-.indicator-builder > table tr td:nth-child(1) {
-    width: 26%!important;
-}
 .header-bar .categories span.active {
     border-bottom: 4px solid #fff !important;
+}
+.header-bar .categories.icon .search {
+    width: 35px!important;
+    height: 40px!important;
+}
+.indicator-builder > table tr td:nth-child(2) {
+    width: calc(88% - 60px)!important;
+
+}
+.view.indicator #settings {
+    height: calc(100%)!important;
+}
+.view .types .type .empty > a:last-of-type > span {
+    width: 220px!important;
+}
+.indicator-dialog .view {
+    height: calc(100% - 20px);
+}
+.chart-dialog {
+    min-width: 0!important;
+}
+.chartOptions .exportOverlay .row .cell .table.download span {
+    height: 30px!important;
+}
+.chartOptions .timePeriodOverlay .vertical-bottom.button {
+    width: 25px!important;
+    height: 25px!important;
+    padding-top: 8px!important;
 }

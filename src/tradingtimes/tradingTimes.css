@@ -17,7 +17,9 @@
   float: left;
   direction: ltr;
 }
-
+table.trading-times-dialog {
+    margin-top: 10px;
+}
 table.trading-times-dialog th,
 table.trading-times-dialog td {
   overflow: hidden;

@@ -108,7 +108,15 @@ body {
   opacity: 1;
 }
 
-.top-nav-menu > li > a { font-size: 18px; color: white; }
+.top-nav-menu li.ltr-direction a {
+  font-size: 16px;
+}
+
+.top-nav-menu > li > a.nav-dropdown-toggle { 
+  font-size: 18px; 
+  color: white;
+  height: 70px;
+}
 
 .login button {
   margin: 15px 0;
@@ -128,4 +136,12 @@ body {
   float: left;
   height: 70px;
   margin-left: 5px;
+}
+
+#main-logout.account-menu {
+  margin: 0;
+}
+
+.nav-menu.main-nav {
+  font-size: 15px;
 }

@@ -1,3 +1,6 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
 msgid "\"http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-funds.aspx\""
 msgstr "\"http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-funds.aspx\""
 
@@ -355,9 +358,6 @@ msgstr "8h"
 msgid "A Evening Doji Star consists of a long bullish candle, followed by a Doji that has gapped above it, then a third bearish candle that closes well within the body of the first candle and in doing so confirming the reversal. It is considered a strong bearish price reversal candlestick pattern"
 msgstr "Uma estrela Doji da noite consiste em uma vela longa de tendência alta, seguida por uma Doji que registra uma lacuna acima dela, depois, uma terceira vela baixista que se fecha bem dentro do corpo da primeira vela e, desse modo, confirmando o reverso. É considerado um padrão de vela baixista forte de reversão de preço."
 
-msgid "A PEP is an individual who is or has been entrusted with a prominent public function. This status extends to a PEP's relatives and close associates"
-msgstr "Uma PPE é uma pessoa que desempenham ou que tenham desempenhado funções públicas proeminentes. Este status se estende aos familiares e outras pessoas de seu relacionamento próximo"
-
 msgid "A Smoothed Moving Average is sort of a blend between a Simple Moving Average and an Exponential Moving Average, only with a longer period applied"
 msgstr "Uma Média Móvel Suavizada é uma espécie de mistura entre uma Média Móvel Simples e uma Média Móvel Exponencial, apenas com a aplicação de um período maior. "
 
@@ -454,11 +454,11 @@ msgstr "Saldo da conta"
 msgid "Account opening reason"
 msgstr "Motivo de abertura de conta"
 
-msgid "Account turnover"
-msgstr "Volume de negócios da conta"
-
 msgid "Action"
 msgstr "Ação"
+
+msgid "Active"
+msgstr "Ativa"
 
 msgid "Add comparisons"
 msgstr "Adicionar comparações"
@@ -517,6 +517,9 @@ msgstr "Outro prêmio importante. Desta vez fomos nomeados pelos leitores online
 msgid "Answer"
 msgstr "Resposta"
 
+msgid "Anticipated account turnover"
+msgstr "Volume de negócios antecipado da conta"
+
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -550,6 +553,9 @@ msgstr "Aroon (AROON)"
 msgid "Aroon Oscillator (AROONOSC)"
 msgstr "Aroon Oscillator (AROONOSC)"
 
+msgid "Arrange"
+msgstr "Organizar"
+
 msgid "Asian down"
 msgstr "Asiático abaixo"
 
@@ -570,6 +576,9 @@ msgstr "Ago"
 
 msgid "August"
 msgstr "Agosto"
+
+msgid "Available Currencies"
+msgstr "Moedas disponíveis"
 
 msgid "Average Directional Movement Index (ADX)"
 msgstr "Índice de Movimento Direcional Médio (ADX)"
@@ -607,7 +616,7 @@ msgstr "Deslocamento da barreira"
 msgid "Barrier(s)"
 msgstr "Barreira(s)"
 
-msgid "Bearish: This is an end-of-trend pattern composed of three candlesticks in an uptrend. The second candlestick must open close to the close of the previous day. The last candlestick should be short and can form an upside gap. There could also be a selling shadow.The pattern represents a weakness in a rise with a risk of consolidation and possible reversal. Bullish: This is an end-of-trend pattern composed of three candlesticks in a downtrend. The second candlestick must open close to the close of the previous day. the last candlestick must be shore. The pattern represents a weakness and consolidation and a possible reversal in trend"
+msgid "Bearish: This is an end-of-trend pattern composed of three candlesticks in an uptrend. The second candlestick must open close to the close of the previous day. The last candlestick should be short and can form an upside gap. There could also be a selling shadow.The pattern represents a weakness in a rise with a risk of consolidation and possible reversal. Bullish: This is an end-of-trend pattern composed of three candlesticks in a downtrend. The second candlestick must open close to the close of the previous day. the last candlestick must be short. The pattern represents a weakness and consolidation and a possible reversal in trend"
 msgstr "Tendência baixista: é um padrão de fim de tendência composto por três vela numa tendência de alta. A segunda vela deve abrir próximo do fechamento do dia anterior. A última vela deve ser curta e pode formar uma lacuna para cima. Também pode haver uma sombra de venda. O padrão representa uma fraqueza numa subida com um risco de consolidação e uma possível inversão. Altista: é um padrão de fim de tendência composto por três velas numa tendência de baixa. A segunda vela deve abrir próximo do fechamento do dia anterior. A última vela deve ser curta. O padrão representa uma fraqueza, uma consolidação e uma possível inversão de tendência"
 
 msgid "Belt-hold (CDLBELTHOLD)"
@@ -796,9 +805,6 @@ msgstr "Ao clicar"
 msgid "By clicking OK, you confirm that you have read and accepted the updated"
 msgstr "Ao clicar OK, você confirma que você leu e aceitou"
 
-msgid "CSV"
-msgstr "CSV"
-
 msgid "Can be used to buy and sell contracts, renew expired purchases, and top-up virtual-money accounts."
 msgstr "Pode ser usado para comprar e vender contratos, renovar aquisições expiradas e financiar contas de dinheiro virtual"
 
@@ -934,7 +940,7 @@ msgstr "Clique para conectar-se com a sua conta Binary.com"
 msgid "Close"
 msgstr "Fechar"
 
-msgid "Close all"
+msgid "Close All"
 msgstr "Fechar tudo"
 
 msgid "Closes"
@@ -999,6 +1005,9 @@ msgstr "País de residência"
 
 msgid "Create"
 msgstr "Criar"
+
+msgid "Create Account"
+msgstr "Criar conta"
 
 msgid "Create token"
 msgstr "Criar token"
@@ -1242,6 +1251,9 @@ msgstr "Educação"
 
 msgid "Embed code"
 msgstr "Código de inserção"
+
+msgid "Employment status"
+msgstr "Estado profissional"
 
 msgid "End Time"
 msgstr "Hora de término"
@@ -1498,6 +1510,9 @@ msgstr "Negociações Superior/Inferior"
 msgid "Hikkake Pattern (CDLHIKKAKE)"
 msgstr "Padrão Hikkake (CDLHIKKAKE)"
 
+msgid "Historical Data"
+msgstr "Dados históricos"
+
 msgid "Home Address"
 msgstr "Endereço residencial"
 
@@ -1636,9 +1651,6 @@ msgstr "Acesso instantâneo"
 msgid "Instant funding"
 msgstr "Financiamento instantâneo"
 
-msgid "Instrument"
-msgstr "Instrumento"
-
 msgid "Instruments"
 msgstr "Instrumento"
 
@@ -1756,6 +1768,9 @@ msgstr "Média Móvel Ponderada Linearmente (MMPL)"
 msgid "Link"
 msgstr "Link"
 
+msgid "Load Workspace"
+msgstr "Carregar mesa de negociações"
+
 msgid "Load chart template"
 msgstr "Carregar modelo do gráfico"
 
@@ -1872,6 +1887,9 @@ msgstr "Certifique-se de que você tenha primeiro chegado a um acordo com o agen
 
 msgid "Make your trade"
 msgstr "Realize a sua negociação"
+
+msgid "Manage"
+msgstr "Gerenciar"
 
 msgid "Mar"
 msgstr "Mar"
@@ -2059,6 +2077,9 @@ msgstr "Intervalo Verdadeiro Médio Normalizado (IVMN)"
 msgid "Normalized Average True Range (NATR) attempts to normalize the average true range values across instruments by using the formula below"
 msgstr "Intervalo Verdadeiro Médio Normalizado (IVMN) tenta normalizar os valores do intervalo verdadeiro médio em todos os instrumentos ao usar a fórmula abaixo"
 
+msgid "Note: You can only have one fiat currency account and one of each cryptocurrency account"
+msgstr "Nota: Só é possível ter uma conta de moeda fiduciária e uma conta de cada criptomoeda"
+
 msgid "Note: withdrawal via payment agent is available only if you deposit exclusively via payment agent"
 msgstr "Nota: retiradas através de agentes de pagamentos somente estão disponíveis no caso de você depositar exclusivamente por via de agentes de pagamento"
 
@@ -2194,14 +2215,8 @@ msgstr "Mais de 90 funcionários e colaboradores em todo o mundo"
 msgid "Overlap Studies"
 msgstr "Estudos sobrepostos"
 
-msgid "PDF"
-msgstr "PDF"
-
 msgid "PEP Declaration"
 msgstr "Declaração PPE"
-
-msgid "PNG"
-msgstr "PNG"
 
 msgid "Parabolic SAR (SAR)"
 msgstr "SAR Parabólico (SAR)"
@@ -2298,6 +2313,9 @@ msgstr "Forneça as suas informações fiscais"
 
 msgid "Please select"
 msgstr "Selecione"
+
+msgid "Please select an account opening reason before continuing"
+msgstr "Selecione um motivo de abertura de conta antes de continuar"
 
 msgid "Please submit a valid verification token"
 msgstr "Envie um token de verificação válido"
@@ -2509,9 +2527,6 @@ msgstr "Três métodos de alta/baixa (CDLRISEFALL3METHODS)"
 msgid "Robust and secure platform"
 msgstr "Plataforma robusta e segura"
 
-msgid "SVG"
-msgstr "SVG"
-
 msgid "Safari"
 msgstr "Safari"
 
@@ -2542,6 +2557,9 @@ msgstr "Salvar como"
 msgid "Save changes"
 msgstr "Salvar alterações"
 
+msgid "Saved"
+msgstr "Salva"
+
 msgid "Scalable trading"
 msgstr "Negociações escaláveis"
 
@@ -2556,9 +2574,6 @@ msgstr "Segurança"
 
 msgid "Security question"
 msgstr "Pergunta de segurança"
-
-msgid "Select Instrument"
-msgstr "Selecionar instrumento"
 
 msgid "Self-Employed"
 msgstr "Trabalhador autônomo"
@@ -2611,9 +2626,6 @@ msgstr "Curto a longo prazo"
 msgid "Short-term action"
 msgstr "Ação de curto prazo"
 
-msgid "Show"
-msgstr "Mostrar"
-
 msgid "Side by side white lines candlestick pattern is a triple pattern. Bullish pattern: In an upward trend, the first candlestick is followed by another upward that opens above the close of the first (gap up), that is followed by a third upward candlestick that opens below the close of the second (gap down). Bearish pattern: During a downtrend, the first candlestick is downward, followed by an upward candlestick that opens below the close of the first one (gap down), followed by an upward candlestick that opens below the close of the second one. This pattern indicates the continuation of a downtrend"
 msgstr "Um padrão de velas de linhas brancas lado a lado é um padrão triplo. Padrão altista: Numa tendência de alta, a primeira vela é seguida por uma vela para cima que se abre acima do fechamento da primeira (lacuna para cima), que é seguida por uma terceira vela para cima que se abre abaixo da segunda (lacuna para baixo). Padrão baixista: Durante uma tendência de baixa, a primeira vela aponta para baixo, seguida por uma vela que aponta para cima que se abre abaixo do fechamento da primeira (lacuna para baixo), seguida por uma vela para cima que se abre abaixo do fechamento da segunda. Este padrão indica a continuação de uma tendência de baixa"
 
@@ -2628,6 +2640,9 @@ msgstr "Média Móvel Suavizada (SMMA)"
 
 msgid "Sold"
 msgstr "Vendido"
+
+msgid "Source of wealth"
+msgstr "Fonte de riqueza"
 
 msgid "Spinning Top (CDLSPINNINGTOP)"
 msgstr "Pião (CDLSPINNINGTOP)"
@@ -2730,9 +2745,6 @@ msgstr "Os índices do mercado da bolsa medem o valor de uma seleção de empres
 
 msgid "Stocks trading experience"
 msgstr "Experiência na negociação de ações"
-msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
 
 msgid "Stocks trading frequency"
 msgstr "Frequência das negociações de ações"
@@ -3118,9 +3130,6 @@ msgstr "Tique-taque {row.number}"
 msgid "Ticks"
 msgstr "Tique-taques"
 
-msgid "Tile"
-msgstr "Lado a lado"
-
 msgid "Time interval"
 msgstr "Intervalo de tempo"
 
@@ -3358,9 +3367,6 @@ msgstr "Linha vertical"
 msgid "View"
 msgstr "Ver"
 
-msgid "View Historical Data"
-msgstr "Ver dados históricos"
-
 msgid "View Statement"
 msgstr "Ver extrato"
 
@@ -3403,7 +3409,7 @@ msgstr "Servidor Websocket"
 msgid "Webtrader"
 msgstr "Webtrader"
 
-msgid "Webtrader is an advanced trading platform that s fully-customisable according to your personal preferences"
+msgid "Webtrader is an advanced trading platform that's fully-customisable according to your personal preferences"
 msgstr "O WebTrader é uma plataforma de negociação avançada, totalmente personalizável de acordo com as suas preferências pessoais"
 
 msgid "Webtrader uses new web technologies for rich and enjoyable trading experience"
@@ -3423,6 +3429,9 @@ msgstr "Média Móvel Ponderada (WMA)"
 
 msgid "Welcome to Binary.com Webtrader"
 msgstr "Bem-vindo(a) ao WebTrader da Binary.com"
+
+msgid "What is pep?"
+msgstr ""
 
 msgid "When you are satisfied with the trade price, instantly execute your trade"
 msgstr "Quando você estiver satisfeito com o preço de negociação, execute imediatamente a sua negociação"
@@ -3451,9 +3460,6 @@ msgstr "Ganhe 10 a 1000% na sua aposta se você estiver correto. Aumente o seu r
 msgid "Win 10-1000% on your stake if you are correct. Increase your winning return by choosing a price target farther away from the current price"
 msgstr "Ganhe 10 a 1000% na sua aposta se você estiver correto. Aumente o seu retorno ao escolher um preço-alvo mais afastado do preço atual"
 
-msgid "Windows"
-msgstr "Janelas"
-
 msgid "With Binary.com you can trade"
 msgstr "Com a Binary.com é possível negociar"
 
@@ -3468,6 +3474,9 @@ msgstr "Retirar fundos"
 
 msgid "Withdrawal via payment agents"
 msgstr "Retirada através de agentes de pagamentos"
+
+msgid "Workspace"
+msgstr "Mesa de negociações"
 
 msgid "X-axis labels"
 msgstr "Etiquetas do eixo X"
@@ -3635,7 +3644,7 @@ msgid "if this is not your country of residence"
 msgstr "se este não for o seu país de residência"
 
 msgid "in the future, the"
-msgstr ""
+msgstr "no futuro, a"
 
 msgid "information about your trading exprience and personal finance"
 msgstr "informações sobre a sua experiência com negociações e finanças pessoais"
@@ -3644,13 +3653,13 @@ msgid "is Binary's advanced desktop trading platform. Its multi-window interface
 msgstr "é a plataforma de negociação avançada para desktops da Binary. A sua interface de várias janelas proporciona flexibilidade máxima e se adequa às necessidade de negociadores ativos que trabalham nos seus computadores desktop"
 
 msgid "is required. Current spread"
-msgstr ""
+msgstr "é necessário. Spread atual"
 
 msgid "is that which is selected and the"
-msgstr ""
+msgstr "é aquela que está selecionada e o"
 
 msgid "is the"
-msgstr ""
+msgstr "é o"
 
 msgid "is the price in effect at that time"
 msgstr "é o preço em vigor naquele momento"
@@ -3662,7 +3671,7 @@ msgid "is the selected time"
 msgstr "é a hora selecionada"
 
 msgid "is the spot at the"
-msgstr ""
+msgstr "é o preço na"
 
 msgid "is when the contract is processed by our servers and the"
 msgstr "é quando o contrato é processado pelos nossos servidores e "
@@ -3750,3 +3759,15 @@ msgstr "| Prêmio"
 
 msgid "enabling clients, affiliates, and developers to buy and sell Binary.com products"
 msgstr "permitindo que clientes, afiliados e desenvolvedores possam comprar e vender produtos da Binary.com"
+
+#~ msgid "Webtrader is an advanced trading platform that s fully-customisable according to your personal preferences"
+#~ msgstr "O WebTrader é uma plataforma de negociação avançada, totalmente personalizável de acordo com as suas preferências pessoais"
+
+#~ msgid "Close all"
+#~ msgstr "Fechar tudo"
+
+#~ msgid "Tile"
+#~ msgstr "Lado a lado"
+
+#~ msgid "Windows"
+#~ msgstr "Janelas"

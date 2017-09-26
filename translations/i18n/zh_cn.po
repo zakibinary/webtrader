@@ -1,7 +1,3 @@
-msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-
 msgid "\"http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-funds.aspx\""
 msgstr "\"http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-funds.aspx\""
 
@@ -359,9 +355,6 @@ msgstr "8小时"
 msgid "A Evening Doji Star consists of a long bullish candle, followed by a Doji that has gapped above it, then a third bearish candle that closes well within the body of the first candle and in doing so confirming the reversal. It is considered a strong bearish price reversal candlestick pattern"
 msgstr "十字夜星包括长线看涨烛图， 接下来是其上有缺口的十字图，然后是在首个烛图主体内完整收盘并同时确认翻转的第三看跌烛图。被视为强大的看跌价逆转K 线图形态"
 
-msgid "A PEP is an individual who is or has been entrusted with a prominent public function. This status extends to a PEP's relatives and close associates"
-msgstr "PEP是被委托进行特出公众任务的个人。此身份包括了PEP的亲属和亲近的人"
-
 msgid "A Smoothed Moving Average is sort of a blend between a Simple Moving Average and an Exponential Moving Average, only with a longer period applied"
 msgstr "平滑移动平均线类似简单移动平均线与指数移动平均线的混合，但应用期限较长"
 
@@ -458,11 +451,11 @@ msgstr "账户余额"
 msgid "Account opening reason"
 msgstr "开立账户的原因"
 
-msgid "Account turnover"
-msgstr "账户交易额"
-
 msgid "Action"
 msgstr "操作"
+
+msgid "Active"
+msgstr "活跃"
 
 msgid "Add comparisons"
 msgstr "添加比较"
@@ -521,6 +514,9 @@ msgstr "这是我们赢得的另一大奖项。该奖项由《Global Banking and
 msgid "Answer"
 msgstr "答案"
 
+msgid "Anticipated account turnover"
+msgstr "预期的账户交易额"
+
 msgid "Apply"
 msgstr "申请"
 
@@ -554,6 +550,9 @@ msgstr "阿隆指标 (AROON)"
 msgid "Aroon Oscillator (AROONOSC)"
 msgstr "阿隆振荡指标 (AROONOSC)"
 
+msgid "Arrange"
+msgstr "安排"
+
 msgid "Asian down"
 msgstr "亚洲下跌"
 
@@ -574,6 +573,9 @@ msgstr "八月"
 
 msgid "August"
 msgstr "八月"
+
+msgid "Available Currencies"
+msgstr "可用的货币"
 
 msgid "Average Directional Movement Index (ADX)"
 msgstr "平均趋向指标 (ADX)"
@@ -611,7 +613,7 @@ msgstr "障碍位移"
 msgid "Barrier(s)"
 msgstr "障碍"
 
-msgid "Bearish: This is an end-of-trend pattern composed of three candlesticks in an uptrend. The second candlestick must open close to the close of the previous day. The last candlestick should be short and can form an upside gap. There could also be a selling shadow.The pattern represents a weakness in a rise with a risk of consolidation and possible reversal. Bullish: This is an end-of-trend pattern composed of three candlesticks in a downtrend. The second candlestick must open close to the close of the previous day. the last candlestick must be shore. The pattern represents a weakness and consolidation and a possible reversal in trend"
+msgid "Bearish: This is an end-of-trend pattern composed of three candlesticks in an uptrend. The second candlestick must open close to the close of the previous day. The last candlestick should be short and can form an upside gap. There could also be a selling shadow.The pattern represents a weakness in a rise with a risk of consolidation and possible reversal. Bullish: This is an end-of-trend pattern composed of three candlesticks in a downtrend. The second candlestick must open close to the close of the previous day. the last candlestick must be short. The pattern represents a weakness and consolidation and a possible reversal in trend"
 msgstr "看跌：显示趋势到了尽头的形式，由三个上升趋势K 线图组成。第二K 线图必须以与前一天收盘价相近的价格开盘。最后的K 线图的长度须短，并可形成向上缺口。另外还可能会有抛售暗影。走势形式显示上涨乏力，存在合并风险与反转的可能性。看涨：显示趋势到了尽头的形式，由三个下跌趋势K 线图组成。第二K 线图必须以与前一天收盘价相近的价格开盘。最后的K 线图的长度须长。形式显示乏力及合并趋势，并存在反转的可能性"
 
 msgid "Belt-hold (CDLBELTHOLD)"
@@ -800,9 +802,6 @@ msgstr "通过点击"
 msgid "By clicking OK, you confirm that you have read and accepted the updated"
 msgstr "通过点击OK键，您确认已经阅读并接受更新的"
 
-msgid "CSV"
-msgstr "CSV"
-
 msgid "Can be used to buy and sell contracts, renew expired purchases, and top-up virtual-money accounts."
 msgstr "可用于合同购入与售出，给到期的购入合同延期，以及给虚拟金钱账户存入资金。"
 
@@ -938,7 +937,7 @@ msgstr "点击登录Binary.com账户"
 msgid "Close"
 msgstr "关"
 
-msgid "Close all"
+msgid "Close All"
 msgstr "全部关闭"
 
 msgid "Closes"
@@ -1003,6 +1002,9 @@ msgstr "居住国"
 
 msgid "Create"
 msgstr "创建"
+
+msgid "Create Account"
+msgstr "开立账户"
 
 msgid "Create token"
 msgstr "创建令牌"
@@ -1246,6 +1248,9 @@ msgstr "教育"
 
 msgid "Embed code"
 msgstr "嵌入代码"
+
+msgid "Employment status"
+msgstr "就业状况"
 
 msgid "End Time"
 msgstr "结束时间"
@@ -1502,6 +1507,9 @@ msgstr "“高于/低于”交易"
 msgid "Hikkake Pattern (CDLHIKKAKE)"
 msgstr "圈套形态 (CDLHIKKAKE)"
 
+msgid "Historical Data"
+msgstr "历史数据"
+
 msgid "Home Address"
 msgstr "家庭地址"
 
@@ -1640,9 +1648,6 @@ msgstr "即时访问"
 msgid "Instant funding"
 msgstr "即时存款"
 
-msgid "Instrument"
-msgstr "工具"
-
 msgid "Instruments"
 msgstr "工具"
 
@@ -1760,6 +1765,9 @@ msgstr "线性加权移动平均数 (LWMA)"
 msgid "Link"
 msgstr "链接"
 
+msgid "Load Workspace"
+msgstr "加载工作区"
+
 msgid "Load chart template"
 msgstr "加载图表模板"
 
@@ -1876,6 +1884,9 @@ msgstr "在提交请求前，请确认同意代理的支付条款。一旦您点
 
 msgid "Make your trade"
 msgstr "执行交易"
+
+msgid "Manage"
+msgstr "管理"
 
 msgid "Mar"
 msgstr "三月"
@@ -2063,6 +2074,9 @@ msgstr "标准化真实波动幅度均值 (NATR)"
 msgid "Normalized Average True Range (NATR) attempts to normalize the average true range values across instruments by using the formula below"
 msgstr "标准化真实波动幅度均值 (NATR) 尝试使用以下公式将各工具之间的真实波动幅度均值标准化"
 
+msgid "Note: You can only have one fiat currency account and one of each cryptocurrency account"
+msgstr "注： 您只能拥有一个法定货币账户以及每种加密货币一个账户"
+
 msgid "Note: withdrawal via payment agent is available only if you deposit exclusively via payment agent"
 msgstr "注意：您必须完全通过付款代理存款才可使用付款代理提款"
 
@@ -2198,14 +2212,8 @@ msgstr "世界各地拥有超过90名职员和合同工"
 msgid "Overlap Studies"
 msgstr "重叠研究"
 
-msgid "PDF"
-msgstr "PDF"
-
 msgid "PEP Declaration"
 msgstr "PEP 声明"
-
-msgid "PNG"
-msgstr "PNG"
 
 msgid "Parabolic SAR (SAR)"
 msgstr "抛物线转向指标 (SAR)"
@@ -2302,6 +2310,9 @@ msgstr "请提供税务信息"
 
 msgid "Please select"
 msgstr "请选择"
+
+msgid "Please select an account opening reason before continuing"
+msgstr "继续操作前请选择开立账户的原因"
 
 msgid "Please submit a valid verification token"
 msgstr "请提供有效的验证令牌"
@@ -2513,9 +2524,6 @@ msgstr "上涨/下跌三法 (CDLRISEFALL3METHODS)"
 msgid "Robust and secure platform"
 msgstr "稳健和安全的平台"
 
-msgid "SVG"
-msgstr "圣文森特和格林纳丁斯"
-
 msgid "Safari"
 msgstr "Safari"
 
@@ -2546,6 +2554,9 @@ msgstr "另存为"
 msgid "Save changes"
 msgstr "保存更改"
 
+msgid "Saved"
+msgstr "已保存"
+
 msgid "Scalable trading"
 msgstr "灵活交易"
 
@@ -2560,9 +2571,6 @@ msgstr "安全"
 
 msgid "Security question"
 msgstr "安全提示问题"
-
-msgid "Select Instrument"
-msgstr "选择工具"
 
 msgid "Self-Employed"
 msgstr "个体经营"
@@ -2615,9 +2623,6 @@ msgstr "各种交易期限"
 msgid "Short-term action"
 msgstr "短期交易操作"
 
-msgid "Show"
-msgstr "显示"
-
 msgid "Side by side white lines candlestick pattern is a triple pattern. Bullish pattern: In an upward trend, the first candlestick is followed by another upward that opens above the close of the first (gap up), that is followed by a third upward candlestick that opens below the close of the second (gap down). Bearish pattern: During a downtrend, the first candlestick is downward, followed by an upward candlestick that opens below the close of the first one (gap down), followed by an upward candlestick that opens below the close of the second one. This pattern indicates the continuation of a downtrend"
 msgstr "并排的白色K 线图形态是三重形态。看涨形态：上升走势中，首支K 线图后面的是另一支以高于首支收盘价开盘的上升K 线图（高开缺口），再后面的是第三支以低于第二支收盘价开盘的上升K 线图（低开缺口）。看跌形态：下降走势中，首支K 线图下跌，后面的是一支以低于首支收盘价开盘的上升K 线图（低开缺口），再后面的是以低于第二支收盘价开盘的上升K 线图。此形态显示持续下跌走势"
 
@@ -2632,6 +2637,9 @@ msgstr "平滑移动平均线 (SMMA)"
 
 msgid "Sold"
 msgstr "已卖出"
+
+msgid "Source of wealth"
+msgstr "财富来源"
 
 msgid "Spinning Top (CDLSPINNINGTOP)"
 msgstr "陀螺线 (CDLSPINNINGTOP)"
@@ -3119,9 +3127,6 @@ msgstr "跳动点 {行.号}"
 msgid "Ticks"
 msgstr "跳动点"
 
-msgid "Tile"
-msgstr "图标"
-
 msgid "Time interval"
 msgstr "时间间隔"
 
@@ -3359,9 +3364,6 @@ msgstr "垂直线"
 msgid "View"
 msgstr "查看"
 
-msgid "View Historical Data"
-msgstr "查看历史数据"
-
 msgid "View Statement"
 msgstr "查看报表"
 
@@ -3404,7 +3406,7 @@ msgstr "Websocket 服务器"
 msgid "Webtrader"
 msgstr "Webtrader"
 
-msgid "Webtrader is an advanced trading platform that s fully-customisable according to your personal preferences"
+msgid "Webtrader is an advanced trading platform that's fully-customisable according to your personal preferences"
 msgstr "Webtrader是先进的交易平台，完全根据个人喜好定制"
 
 msgid "Webtrader uses new web technologies for rich and enjoyable trading experience"
@@ -3424,6 +3426,9 @@ msgstr "加权移动平均指标 (WMA)"
 
 msgid "Welcome to Binary.com Webtrader"
 msgstr "欢迎来到 Binary.com Webtrader"
+
+msgid "What is pep?"
+msgstr "Pep 是什么？"
 
 msgid "When you are satisfied with the trade price, instantly execute your trade"
 msgstr "一旦您对交易价格感到满意，即可立刻执行交易"
@@ -3452,9 +3457,6 @@ msgstr "如果您预测正确的话，即可赢得相等于投注额10-1000%的�
 msgid "Win 10-1000% on your stake if you are correct. Increase your winning return by choosing a price target farther away from the current price"
 msgstr "如果您预测正确的话，即可赢得相等于投注额10-1000%的回报率。选择距离当前价格更远的预测价格可增加回报率"
 
-msgid "Windows"
-msgstr "窗口"
-
 msgid "With Binary.com you can trade"
 msgstr "通过Binary.com，您可以交易"
 
@@ -3469,6 +3471,9 @@ msgstr "取出资金"
 
 msgid "Withdrawal via payment agents"
 msgstr "通过支付代理取款"
+
+msgid "Workspace"
+msgstr "工作区"
 
 msgid "X-axis labels"
 msgstr "X-轴标签"
@@ -3751,3 +3756,4 @@ msgstr "| 赔付"
 
 msgid "enabling clients, affiliates, and developers to buy and sell Binary.com products"
 msgstr "让客户、联盟会员和程序开发员买卖Binary.com的产品"
+

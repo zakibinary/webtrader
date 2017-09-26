@@ -98,24 +98,22 @@ function yyyy_mm_dd_to_epoch(yyyy_mm_dd, options) {
 
 /* format the number (1,234,567.89), source: http://stackoverflow.com/questions/2254185 */
 function formatPrice(float,currency) {
-    var minimumFractionDigits = currency && (currency.trim().toUpperCase() === "BTC" || currency.trim().toUpperCase() === "XBT") ? 8 : 2; //Because backend is confusing
+    var sign = float < 0 ? '-': '';
+
+    float = float && Math.abs(float);
+    currency = (currency || '').toLowerCase().trim();
+    var currencies_config = (local_storage.get('currencies_config') || {});
+    var minimumFractionDigits = (currencies_config[(currency|| '').toUpperCase()] || {}).fractional_digits || 2;
     var i18n_name = (window.local_storage.get("i18n") || { value: "en" }).value;
-	var currency_symbols = {
-		"USD": "$", /* US Dollar */ "EUR": "€", /* Euro */ "CRC": "₡", /* Costa Rican Colón */
-		"GBP": "£", /* British Pound Sterling */ "ILS": "₪", /* Israeli New Sheqel */
-		"INR": "₹", /* Indian Rupee */ "JPY": "¥", /* Japanese Yen */
-		"KRW": "₩", /* South Korean Won */ "NGN": "₦", /* Nigerian Naira */
-		"PHP": "₱", /* Philippine Peso */ "PLN": "zł", /* Polish Zloty */
-		"PYG": "₲", /* Paraguayan Guarani */ "THB": "฿", /* Thai Baht */
-		"UAH": "₴", /* Ukrainian Hryvnia */ "VND": "₫", /* Vietnamese Dong */
-        "BTC": "฿", /*Bitcoin*/ "XBT": "฿", /*Bitcoin*/
-	};
 	float = new Intl.NumberFormat(i18n_name.replace("_","-"), {
 						style: "decimal",
 						minimumFractionDigits: minimumFractionDigits,
-					}).format(float);
+                    }).format(float);
 	if(currency){
-		float = (currency_symbols[currency.trim().toUpperCase()] || currency) + float;
+		float = sign + $('<span>', {
+            class: 'symbols ' + currency,
+            text: float
+        })[0].outerHTML;
 	}
 	return float;
 }
@@ -290,7 +288,8 @@ var local_storage = {
 function isLangSupported(lang) {
     lang = (lang || "").trim().toLowerCase();
     return lang === "ar" || lang === "de" || lang === "en" || lang === "es" || lang === "fr" || lang === "id" || lang === "it" || lang === "th"
-            || lang === "ja" || lang === "pl" || lang === "pt" || lang === "ru" || lang === "vi" || lang === "zn_cn" || lang === "zh_cn" || lang === "zh_tw";
+            || lang === "ja" || lang === "pl" || lang === "pt" || lang === "ru" || lang === "vi" || lang === "zn_cn" || lang === "zh_cn" || lang === "zh_tw"
+            || lang === "ach"//Crowdin in context language;
 }
 
 var Cookies = {
@@ -316,6 +315,7 @@ var Cookies = {
     });
    /* when new accounts are created document.cookie doesn"t change,
     * use local_storage to return the full list of loginids. */
+    var currencies_config = local_storage.get("currencies_config") || {};
     var oauth_loginids = (local_storage.get("oauth") || []).map(function(id){
       return {
         id: id.id,
@@ -324,7 +324,9 @@ var Cookies = {
         is_mf: /MF/gi.test(id.id),
         is_mlt: /MLT/gi.test(id.id),
         is_mx: /MX/gi.test(id.id),
-        is_cr: /^CR|^CH/gi.test(id.id)
+        is_cr: /^CR|^CH/gi.test(id.id),
+        currency: id.currency,
+        type: currencies_config[id.currency] ? currencies_config[id.currency].type : ''
       }
     }).filter(function(id) {
       return loginids.map(function(_id) { return _id.id }).indexOf(id.id) === -1;
@@ -421,7 +423,17 @@ function isChampionFx() {
   return document.domain.indexOf("champion-fx.com")!==-1;
 }
 
-var isBTC = function () {
-    var currency = local_storage.get("currency");
-    return currency.toUpperCase() === "BTC" || currency.toUpperCase() === "XBT";
+function getCurrencyDetail(prop, curr) {
+    var currency = (curr || local_storage.get("currency") || '').toUpperCase();
+    var config = (local_storage.get('currencies_config') || {})[currency] || {};
+    return config[prop];
+}
+
+var currencyFractionalDigits = function () {
+    return getCurrencyDetail('fractional_digits');
+}
+
+var isCryptoCurrency = function (curr) {
+    var is_crypto = getCurrencyDetail('type', curr) === 'crypto';
+    return is_crypto;
 }

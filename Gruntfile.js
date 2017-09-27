@@ -157,7 +157,7 @@ module.exports = function (grunt) {
                 overwrite: true,
                 replacements: [{
                     from: '<style-url>',
-                    to: 'https://style.champion-fx.com'
+                    to: 'https://kelly-championfx.github.io/binary-style/'
                 }]
             }
         },
